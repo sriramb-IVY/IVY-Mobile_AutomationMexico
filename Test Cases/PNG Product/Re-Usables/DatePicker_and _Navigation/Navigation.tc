@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7030ac32-6565-4d2a-9c37-12e040fbccd8</testCaseGuid>
+   <variable>
+      <defaultValue>'Transactions;Receivables;Collections;Collections'</defaultValue>
+      <description></description>
+      <id>95b5de4b-f1bd-4d48-99bc-aa587c5ba03b</id>
+      <masked>false</masked>
+      <name>Navigation</name>
+   </variable>
+</TestCaseEntity>
