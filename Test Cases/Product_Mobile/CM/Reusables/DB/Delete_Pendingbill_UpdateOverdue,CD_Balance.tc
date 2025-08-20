@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete_Pendingbill_UpdateOverdue,CD_Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a6ba0dd-2718-4196-ab96-813327497c02</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8660b05a-120f-461c-a1b9-8aa718907827</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>8660b05a-120f-461c-a1b9-8aa718907827</id>
+      <masked>false</masked>
+      <name>Row_Index</name>
+   </variable>
+</TestCaseEntity>

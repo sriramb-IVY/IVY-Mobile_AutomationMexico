@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_029->
+1)Create B8_MTR_FP_Slab_1_Value scheme  under a Brand in Scheme master
+and verify the scheme name, slabs, total value, total amount, 
+free products, scheme discount amount and quantities.
+2)To verify whether the scheme has applied double the time when
+ you enter double the buy quantity.
+3)To verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+
+Scheme Type: Value
+Scheme Process Type: MTR
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic:ONLY
+Apply On: RP
+Slabs: 1 slab</description>
+   <name>RE_SCH_029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ede8fd31-c32d-4e8e-ac7f-bc528eb8ac9e</testCaseGuid>
+</TestCaseEntity>

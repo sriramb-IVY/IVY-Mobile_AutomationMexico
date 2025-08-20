@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_01  : To verify the Filters Icon in Order&amp;Invoice screen
+
+INV_02  : To verify the Filter Submenu details
+
+INV_03  : To verify the Filter Functionality
+
+INV_04  : To verify the Filter Screen Clear button functionality
+
+INV_05 : To verify the Search option functionality</description>
+   <name>INV_01_02_03_04_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad26d228-41d2-4cb4-ab48-17bf94798d0e</testCaseGuid>
+</TestCaseEntity>

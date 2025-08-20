@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can select particular retailer and going to order &amp; invoice Screen</description>
+   <name>Select_Retailer and Going_OrderInvoice_Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e3de422-231b-4be1-85e6-80bb02482401</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>560a3624-b0e8-4b70-9074-a20dd30a021c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('VBL_Mobile Input Data/Invoice').getValue('Retailer_Name', 1)</defaultValue>
+      <description></description>
+      <id>560a3624-b0e8-4b70-9074-a20dd30a021c</id>
+      <masked>false</masked>
+      <name>RetailerName</name>
+   </variable>
+</TestCaseEntity>

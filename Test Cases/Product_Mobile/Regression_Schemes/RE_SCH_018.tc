@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_018->
+1)Create B6_MTS_FP_OR_Slab1 scheme in scheme master 
+and verify the free product name and quantity for slab1
+2)Verify the free product name, quantity for double time of slab1
+3)Verify the scheme not applied if less than scheme minimum 
+quantity is entered
+Scheme Type: Sales Value
+Scheme Process Type: Mutiple Slab
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: ANY
+Apply On: RP
+Slabs : Single slabs</description>
+   <name>RE_SCH_018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3aed410-db76-413b-9910-189dec3f4c58</testCaseGuid>
+</TestCaseEntity>

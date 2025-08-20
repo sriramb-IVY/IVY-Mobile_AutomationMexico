@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Discount Job Run Query.</description>
+   <name>Discount_Job Run-TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b12c35d5-f77d-461a-85f9-6dc989a21362</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date_Difference</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4d32124-9b4c-446f-8a07-ec1b7487eb48</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee3a5439-a834-4437-91f4-c9c88118eecf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee3a5439-a834-4437-91f4-c9c88118eecf</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

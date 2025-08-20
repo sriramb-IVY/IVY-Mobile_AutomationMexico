@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_033->
+1)Create B9_MTR_DV_MS_Get(Excl)_SlabLimit Apportionate scheme 
+and verify the Discount Value for slab1
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type:Quantity
+Scheme Process Type: MTR
+Scheme Get Type: Free Quantity
+Scheme Buy Logic: ONLY
+Scheme Get Logic: NA
+Group Buy Logic: AND
+Group Get Logic: NA
+Apply On: RP
+Product Exclusion: Yes</description>
+   <name>RE_SCH_033</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0246a8a3-5627-4e73-a279-7b9b26c2be4a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_31 To verify whether the list of the available products with product name and SIH should be displayed in the manual van load screen.
+
+LM_32 To verify whether the functionality of the product hierarchy filter icon in the Manual Van Load screen
+
+LM_33 To verify whether user can't enter negative quantity to the product in the  Manual Van Load screen
+
+LM_34 To verify whether user can able to enter quantity to the product in the Manual van load screen
+
+LM_35 To verify whether user can save the data in the Manual van load screen and save successuful alert must be shown
+
+LM_36 To verify whether saved Manual van load screen data should be reflected in the curren stock view screens</description>
+   <name>LM_31_32_33_34_35_36</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b00fc3f-c899-456e-bc1c-efa8046036c6</testCaseGuid>
+</TestCaseEntity>

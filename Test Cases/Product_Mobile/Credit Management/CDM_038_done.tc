@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_005->
+1)Create MTS_MS_Disc_Off(Value) scheme in scheme master &amp;
+Verify the Total value,Total amount, discount value for slab1
+2)Verify the Total value,Total amount, discount value for slab2
+3)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+ actual quantity. 
+4)Enter cumulative quantity of slab1 and slab2 as buy quantity and verify the discount value applied
+Scheme Type: Sales Value
+Scheme Process Type: MultiSlab
+Scheme Get Type: Discount value
+Scheme Buy Logic: ONLY
+Scheme Get Logic: -
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab: Multi Slab</description>
+   <name>CDM_038_done</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d93653e9-9cad-491f-8b72-72afe2590058</testCaseGuid>
+</TestCaseEntity>

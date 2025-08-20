@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_022->
+1)Create B6_MTS_DP_S1(QTY) scheme in scheme master and 
+verify the discount value for slab1
+2) scheme discount value for slab1 should not applied beyond 
+the slab max limit
+3)verify the scheme not applied if less than scheme minimum 
+quantity is entered
+Scheme Type: Sales Value
+Scheme Process Type: Multiple Slab
+Scheme Get Type: Discount Value
+Scheme Buy Logic: ONLY
+Scheme Get Logic: -
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab Max Limit : Yes (for slab1 only)
+Slabs : Multi slab</description>
+   <name>RE_SCH_022</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>043bd777-3772-4a8d-b823-94513dd86bac</testCaseGuid>
+</TestCaseEntity>

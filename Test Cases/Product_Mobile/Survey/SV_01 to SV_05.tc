@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SV_01 : To verify whether the differeant types of Survey tabs are 
+displayed in the mobile Survey screen.
+SV_02 : To verify whether all the mapped questions are displayed in
+ the mobile Survey screen.
+SV_03 : To verify whether the survey form can be saved without 
+entering the answers.
+SV_04 : To validate the functionality of Save button
+SV_05 : To verify whether the user can capture the signature</description>
+   <name>SV_01 to SV_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b131d3b5-999b-4a2b-a027-b4bdf4c12689</testCaseGuid>
+</TestCaseEntity>

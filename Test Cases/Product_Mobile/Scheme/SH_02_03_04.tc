@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_02 : Create DP_OTPR_Automation_Scheme
+Scheme Buy Logic : ONLY
+Group Buy Logic : ONLY
+Scheme get type: Discount percentage 
+Slab : Slab_1 and Slab_2
+and map the scheme to retailer(ZZZ Store).
+
+SH_03 : To verify whether applied scheme (DP_OTPR_Automation_Scheme) details in mobile  are reflected into the database (sales_invoice_scheme_detail,adm_scheme)
+
+SH_04 ; To verify whether applied scheme(DP_OTPR_Automation_Scheme) details in mobile  are reflected into the Sales invoice view screen
+
+</description>
+   <name>SH_02_03_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b94d7192-93bd-4244-a276-1fd5660545e9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_009->
+1)Create B4_DP_OTP_Slabs_1_Brand_SubBrand(And) scheme in scheme master &amp;
+Verify the Total value,Total amount, discount percentage
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+ actual quantity.
+Scheme Type: Quantity
+Scheme Process Type: One Time Process
+Scheme Get Type: Discount percentage
+Scheme Buy Logic: ONLY
+Scheme Get Logic: -
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab: Single Slab</description>
+   <name>RE_SCH_009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c59adb0f-6d04-4f67-b691-cbbb30df6def</testCaseGuid>
+</TestCaseEntity>

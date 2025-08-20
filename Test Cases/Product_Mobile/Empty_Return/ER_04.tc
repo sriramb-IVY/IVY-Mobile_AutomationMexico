@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Current Stock View Screen for Empties datas
+</description>
+   <name>ER_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73724a9d-96aa-461a-9e3c-1d34148fb997</testCaseGuid>
+</TestCaseEntity>

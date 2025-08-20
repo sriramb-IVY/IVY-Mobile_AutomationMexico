@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RemoveCommaInString</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fda839e3-ec9d-421d-97b0-71643e1283f9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46f5e6d6-78ec-4af3-be09-0ca9cbc257e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46f5e6d6-78ec-4af3-be09-0ca9cbc257e3</id>
+      <masked>false</masked>
+      <name>GivenText</name>
+   </variable>
+</TestCaseEntity>

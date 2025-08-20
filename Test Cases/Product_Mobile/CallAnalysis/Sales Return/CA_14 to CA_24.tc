@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_14 To verify whether user can able to enter data in all fields of the sales return screen
+CA_15 To verify whether entered case&amp;piece qty from the sales return screen should be reflected in sales return list screen
+CA_16 To verify the field from sales return screen should be correctly displayed in sales return summary screen 
+CA_17 To verify whether successfully saved alert should be displayed in theSales return screen
+CA_18 To verify whether list of the products should be displayed in the Sales return screen
+CA_19 To verify that buttom of the lines field in theSales return screen
+CA_20 To verify that buttom of the total value in the Sales return screen
+CA_21 Toverify that user can able to select any product in the sales return screen
+CA_22 To verify whether user should be able to Add another reason and quantity for the same product in product return screen
+CA_23 To verify whether user should be able to view Sales return summary screen
+CA_24 To verify Sales return value and sales return volume(SIH) from the sales return screen it should be refelected in call analysis screen</description>
+   <name>CA_14 to CA_24</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcf58454-a26f-40ea-85a6-8f06006f02d5</testCaseGuid>
+</TestCaseEntity>

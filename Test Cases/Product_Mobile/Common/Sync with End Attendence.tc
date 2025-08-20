@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SY_01 : To verify that user can able to sync and verify the successful alert
+
+SY_02 : To verify that user can able to download and verify the successful alert</description>
+   <name>Sync with End Attendence</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3879d97b-ad83-482a-a735-760c640ceab6</testCaseGuid>
+</TestCaseEntity>

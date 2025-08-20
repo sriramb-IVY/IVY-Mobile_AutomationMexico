@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date Picker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a2278ca-c747-45a1-bc91-c67286902bfa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce634597-8b6d-4e9d-878b-92425adb08e2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Today'</defaultValue>
+      <description></description>
+      <id>ce634597-8b6d-4e9d-878b-92425adb08e2</id>
+      <masked>false</masked>
+      <name>DateValue</name>
+   </variable>
+</TestCaseEntity>

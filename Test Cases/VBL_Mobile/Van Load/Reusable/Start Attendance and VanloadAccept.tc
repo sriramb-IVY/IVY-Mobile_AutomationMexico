@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Restart Application, Start Attendenance and Accept Van Load.</description>
+   <name>Start Attendance and VanloadAccept</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c401006a-7df2-440b-b2c1-05c6d1113a6f</testCaseGuid>
+</TestCaseEntity>

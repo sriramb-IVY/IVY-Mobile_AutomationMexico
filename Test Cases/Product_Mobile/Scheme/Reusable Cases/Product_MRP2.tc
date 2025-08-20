@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get product price details.</description>
+   <name>Product_MRP2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e5a72e1-1cdb-40c4-8b25-64657ff7d2eb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_28 To verify whether the user can capture the Sales return number from the sales_return_header table and validate the same in sales return view screen
+
+CA_29 To verify whether the Sales return amount from the sales_return_header table is reflected in the sales return view screen.
+
+CA_30 To verify whether the sales return details from sales_return_detail table in Sales return view popup screen
+
+CA_31 To verify whether Entered case piece qty from mobile sales return screen is reflected into sales_return_detail table
+
+CA_32 To verify whether the sales return total amount reflected in credit Amount field in Sales return view popup screen
+
+CA_33 To verify whether Sales return sku name reflected in the Sales return view popup screen
+
+CA_34 To verify whether Selected Sales return sku name from mobile inserted into product_hierarchy table
+
+CA_35 To verify whether selected sales return reason from mobile inserted into both DB and sales return reason popup view screen 
+
+CA_36 To verify whether validated the case&amp;piece quantity in sales return screen from mobile  inserted into both DB and sales return reason popup view screen 
+</description>
+   <name>CA28 to CA36 (SalesReturn_Web_Mobile_DB)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10488bd8-f04b-4a86-98db-6ee4b46d5c89</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order_Generate(only Case)_CT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b143df14-0c6f-4744-942e-b822f66bf45b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af998f60-216c-4353-b062-4fed9f4857f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c205a4f2-f627-4780-943b-f16e3c65490d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/Invoice').getValue('Product_Name', 1)</defaultValue>
+      <description></description>
+      <id>af998f60-216c-4353-b062-4fed9f4857f6</id>
+      <masked>false</masked>
+      <name>ProductName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/Invoice').getValue('Keypad_Number', 1)</defaultValue>
+      <description></description>
+      <id>c205a4f2-f627-4780-943b-f16e3c65490d</id>
+      <masked>false</masked>
+      <name>KeypadNumber</name>
+   </variable>
+</TestCaseEntity>

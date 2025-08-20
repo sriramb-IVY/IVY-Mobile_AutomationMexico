@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Prerequest script --delete credit note for particular retailer before do replacement</description>
+   <name>SRR_CT_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8c29373-2652-4963-bbe9-449f757829ca</testCaseGuid>
+</TestCaseEntity>

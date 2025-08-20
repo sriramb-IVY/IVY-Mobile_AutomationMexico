@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TP_04 : To verify user able to cancel the visit for the current date only</description>
+   <name>TP_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f72bd79f-2ae3-41b9-ad47-a6fa0f188a17</testCaseGuid>
+</TestCaseEntity>

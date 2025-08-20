@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add stock in stock allocation screen (WEB)</description>
+   <name>StockAllocation(Web part)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93498eaf-a70e-406f-b45d-b62ab10c3c11</testCaseGuid>
+</TestCaseEntity>

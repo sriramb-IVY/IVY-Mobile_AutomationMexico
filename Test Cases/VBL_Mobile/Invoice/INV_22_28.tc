@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_22 To verify user can able to create mustsell
+
+INV_28 To verify user can able to create focusBrand 
+
+ To verify user can get BasePrice, PiecePrice,  CaseSize 
+
+To verify user can get CGST tax </description>
+   <name>INV_22_28</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f58ef757-92ca-400d-99d7-2b9c0e1b4769</testCaseGuid>
+</TestCaseEntity>

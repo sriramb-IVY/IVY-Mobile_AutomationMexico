@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_013->
+1)Create B4_DV_OTP_Slabs_2_Brand scheme in scheme master &amp;
+Verify the scheme name, slabs, total value, total amount, scheme discount amount of both slab1 and slab2
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the actual buy quantity.
+Scheme Type: Quantity
+Scheme Process Type: OTP
+Scheme Get Type: Discount Value
+Scheme Buy Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab: Multi Slab</description>
+   <name>RE_SCH_013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cf264f9-a809-4589-b0c5-73adde73ef7b</testCaseGuid>
+</TestCaseEntity>

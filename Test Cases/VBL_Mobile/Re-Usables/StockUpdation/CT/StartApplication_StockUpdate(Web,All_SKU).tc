@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add stock in stock allocation screen (WEB)</description>
+   <name>StartApplication_StockUpdate(Web,All_SKU)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c90da1c7-c3dc-411c-8ddd-55f65ef5d6cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56adb0b8-d6d3-4c9f-873b-9e515f9e6bb6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8644e93e-be30-4f9e-b0f5-018e38be924c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>56adb0b8-d6d3-4c9f-873b-9e515f9e6bb6</id>
+      <masked>false</masked>
+      <name>Starting_Row_No</name>
+   </variable>
+   <variable>
+      <defaultValue>62</defaultValue>
+      <description></description>
+      <id>8644e93e-be30-4f9e-b0f5-018e38be924c</id>
+      <masked>false</masked>
+      <name>Ending_Row_No</name>
+   </variable>
+</TestCaseEntity>

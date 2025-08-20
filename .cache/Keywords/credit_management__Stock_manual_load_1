@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "2E267C70EEE8ADD6912E54494947B1C3",
+  "keywordClasses": [
+    {
+      "name": "credit_management.Stock_manual_load_1",
+      "keywordMethods": [
+        {
+          "name": "Add_Stock",
+          "parameters": [
+            {
+              "name": "Product",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "Qty",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

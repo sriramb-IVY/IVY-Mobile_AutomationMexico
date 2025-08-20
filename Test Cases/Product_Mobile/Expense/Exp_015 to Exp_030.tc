@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exp_015	To verify whether the user navigates to the Expense Approval screen and it has all the necessary fields.
+Exp_016	To verify whether the Expense Approval grid has the respective header details of the Expenses.
+Exp_017	To verify whether the Month field functionality.
+Exp_018	To verify whether the Show button functionality.
+Exp_019	To verify whether the Expense details are shown in the gird after choosing the desired month or year.
+Exp_020	To verify whether the status is Requested and the check box is visible for the unapproved expenses.
+Exp_021	To verify whether the Expense Type, Amount, and Reimbursed details are visible while clicking the arrow button.
+Exp_022	To verify the Reimbursed field functionality.
+Exp_023	To verify the image icon functionality.
+Exp_024	To verify the Back button functionality in the Expense Breakup screen.
+Exp_025	To verify the Status difference in the grid.
+Exp_026	To verify the Approve button functionality without checking the checkbox and not entering the Reimbursed amount.
+Exp_027	To verify the Reject button functionality without checking the checkbox and not entering the Reimbursed amount.
+Exp_028	To verify the Remarks field functionality.
+Exp_029	To verify the Approve button functionality after checking the checkbox and entering the reimbursed amount.
+Exp_030	To verify the Reject button functionality after checking the checkbox and entering the reimbursed amount.</description>
+   <name>Exp_015 to Exp_030</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e16dd81-ae23-40e4-80ff-a7db18b9a5bd</testCaseGuid>
+</TestCaseEntity>

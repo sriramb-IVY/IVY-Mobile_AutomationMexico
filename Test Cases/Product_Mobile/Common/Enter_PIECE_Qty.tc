@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter_PIECE_Qty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2288b77-2446-415a-a8cb-27b8a58e040e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>162adbc5-3808-4f8b-90e7-86be5330af56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.Qty</defaultValue>
+      <description></description>
+      <id>162adbc5-3808-4f8b-90e7-86be5330af56</id>
+      <masked>false</masked>
+      <name>Quantity</name>
+   </variable>
+</TestCaseEntity>

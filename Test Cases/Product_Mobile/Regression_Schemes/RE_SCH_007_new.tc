@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_007->
+1)Create OTP_MS_Free_QTY(In_AND_Cond) scheme in scheme master &amp;
+Verify the scheme name, slab, total value, total amount, free product and free product
+ quantity
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+ actual quantity.
+Scheme Type: Quantity
+Scheme Process Type: OTP
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: AND
+Apply On: RP
+Slab: Multi Slab
+</description>
+   <name>RE_SCH_007_new</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e23c4c76-a1c0-4d32-8e38-79e4d6565aaa</testCaseGuid>
+</TestCaseEntity>

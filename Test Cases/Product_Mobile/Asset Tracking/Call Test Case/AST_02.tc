@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AST_02-->To verify Asset  Product is Mapping or not</description>
+   <name>AST_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>941dd910-03f8-495e-82da-08ad14108439</testCaseGuid>
+</TestCaseEntity>

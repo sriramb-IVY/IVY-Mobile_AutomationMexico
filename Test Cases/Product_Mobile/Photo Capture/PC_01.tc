@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>PC_01 : To verify that user can able to add a photo</description>
+   <name>PC_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f84543c8-46dc-44a5-b6d9-d7690cf26078</testCaseGuid>
+</TestCaseEntity>

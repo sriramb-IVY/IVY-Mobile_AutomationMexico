@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_17 To verify whether Entered product,case piece qty from mobile van unload screen is reflected into Van_UnLoad_Detail table
+
+LM_18 To verify whether stock proposal submenu comes under the end of the day menu
+
+LM_19 To verify the “Stock Proposal” screen with their fields
+
+LM_20 To verify whether the stock proposal screen products are refelected from product master web CPG
+
+LM_21 To verify the “Stock Proposal” screen Save Functionality
+
+LM_22 To verify whether the total value field in the stock proposal screen
+
+LM_23 To verify whether the functionality of the product hierarchy filter icon in the Stock Proposal Screen
+
+LM_24 To verify whether Entered case piece qty of the product from mobile stock proposal screen is reflected into AppData_Stock_Proposal_Header table
+
+LM_25 To verify whether user can select proposed stock in the vanload-create screen
+
+LM_26 To verify whether user view a list of products proposed for stock allocation with details
+
+LM_27 To verify the case piece quantity and product name in the stock proposal screen from the mobile is reflected in stock allocation screen.
+
+LM_28 To verify whether selecting Auto adjust checkbox will auto populate the proposed qty to allocated qty in the hyperlink SKU details screen
+
+LM_29 To verify whether given case &amp; piece quantity properly loaded in the the proposal based allocation screen.
+
+LM_30 To verify the user can able do proposed allocation
+</description>
+   <name>LM_17 to LM_30</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>238a16b2-0c23-43e9-9d4d-b66d99e8b400</testCaseGuid>
+</TestCaseEntity>

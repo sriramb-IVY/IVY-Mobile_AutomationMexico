@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_024->
+1)Create B7_MTS_DV_Slab_1_BUY_EXCL scheme in scheme master and 
+verify the Total value,Total amount, discount value for slab1
+2)To verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+3)Verify the scheme discount not applied for excluded product
+
+Scheme Type: Quantity
+Scheme Process Type: One Time Process
+Scheme Get Type: Discount Value
+Scheme Buy Logic: ONLY
+Group Buy Logic: -ANY
+Apply On: RP
+Product Exclusion: Yes
+Slabs : Single slab</description>
+   <name>RE_SCH_024</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9af21b6f-03e5-4d7f-b2fb-7dc832e4fb25</testCaseGuid>
+</TestCaseEntity>

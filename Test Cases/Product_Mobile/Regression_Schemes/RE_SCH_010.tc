@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_010->
+1)Create B4_SS_FP(VALUE)_OTP scheme in scheme master &amp;
+Verify the  Free product qty for slab1
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+ actual quantity.
+Scheme Type: Quantity
+Scheme Process Type: One Time Process
+Scheme Get Type: Discount percentage
+Scheme Buy Logic: ONLY
+Scheme Get Logic: -
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab: Single Slab</description>
+   <name>RE_SCH_010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>872dca48-b3cb-4681-bcdc-cd7392af3b24</testCaseGuid>
+</TestCaseEntity>

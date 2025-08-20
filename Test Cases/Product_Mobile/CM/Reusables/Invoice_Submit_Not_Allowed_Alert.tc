@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invoice_Submit_Not_Allowed_Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d204ee0d-8669-4ea8-b2ad-2846a482c8d0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c33a7c86-29e1-48e9-9968-3ec00a208378</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c33a7c86-29e1-48e9-9968-3ec00a208378</id>
+      <masked>false</masked>
+      <name>Expecting_Alert_Text</name>
+   </variable>
+</TestCaseEntity>

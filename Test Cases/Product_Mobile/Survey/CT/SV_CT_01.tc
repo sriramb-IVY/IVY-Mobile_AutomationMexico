@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pre-Requisite : Create Survey Questions and Mapped to our seller.</description>
+   <name>SV_CT_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23ae2b13-b5b6-4447-8ded-ab69edac32fa</testCaseGuid>
+</TestCaseEntity>

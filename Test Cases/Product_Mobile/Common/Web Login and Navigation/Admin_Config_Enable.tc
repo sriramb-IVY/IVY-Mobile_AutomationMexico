@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_Config_Enable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>164cd8ce-a03d-4814-bf7d-0f248a4ca73c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae439581-38c2-4138-9e67-579688484dc2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c97904f4-8363-4d7e-956a-90e626056361</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>ce3d4616-38ce-41f1-a3ed-057583fedecb</id>
+      <masked>false</masked>
+      <name>Config_Index</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>0b7c2c5d-1fbe-4678-b2f0-8eb4aebaf766</id>
+      <masked>false</masked>
+      <name>Rfield_Value</name>
+   </variable>
+</TestCaseEntity>

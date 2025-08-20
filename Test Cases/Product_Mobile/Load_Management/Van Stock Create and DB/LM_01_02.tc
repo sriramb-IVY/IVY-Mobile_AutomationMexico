@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_01 To verify whether user can able to put order in Stock allocation
+
+LM_02 To verify whether allocated stock details inserted into the Vanload_Header Table
+
+
+</description>
+   <name>LM_01_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfd3f876-a3b8-4c76-90ba-2af998813343</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_16 To verify the entered cash from the cash screen should be reflected in the bill payment screen
+
+CA_17 To verify the entered cash from the cash screen should be reflected to the received amount field in the collection screen
+
+CA_18 To verify OS amount in the collection screen
+
+CA_19 To verify whether received cash from the collection screen should be reflected to the collection field in call analysis screen</description>
+   <name>CA_16_17_18_19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad07b2c6-15f6-4b94-86ed-07fc9f067893</testCaseGuid>
+</TestCaseEntity>

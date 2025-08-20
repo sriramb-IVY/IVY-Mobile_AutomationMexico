@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get_Pending_Invoice_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74958822-1f11-4200-a7a0-b27b2e4e5022</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddac7c2c-e728-4d83-8393-6b3dc13de151</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddac7c2c-e728-4d83-8393-6b3dc13de151</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

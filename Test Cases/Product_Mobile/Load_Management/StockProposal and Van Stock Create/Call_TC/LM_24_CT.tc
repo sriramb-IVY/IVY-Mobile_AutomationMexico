@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_24 To verify whether Entered case piece qty of the product from mobile stock proposal screen is reflected into AppData_Stock_Proposal_Header table</description>
+   <name>LM_24_CT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e12475-8b10-4f72-bc4a-d4300ef3bb93</testCaseGuid>
+</TestCaseEntity>

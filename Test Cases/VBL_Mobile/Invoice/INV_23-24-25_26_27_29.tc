@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_23 To verify that the Star icon Field should be present in order&amp;incoice screen.
+
+INV_24 To verify that the filter menu should be present in filter screen.
+
+INV_25 To verify that the mustsell menu functionality in the filter screen
+
+INV_26 To verify that user should be enter the qty in all MustSell mapped products, Mustsell Popup screen should not be displayed in order&amp;invoice screen
+
+INV_27 To verify that user should not enter the qty in all MustSell mapped products, Mustsell Popup screen should be displayed in order&amp;invoice screen
+
+INV_28 To verify user can able to create focusBrand
+
+INV_29 To verify that the focus brand menu functionality in the filter screen</description>
+   <name>INV_23-24-25_26_27_29</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4702882-e1f2-48b1-a500-e115ab50e38f</testCaseGuid>
+</TestCaseEntity>

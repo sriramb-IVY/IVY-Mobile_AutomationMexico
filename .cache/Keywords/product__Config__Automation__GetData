@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "BA62EA521B40E8D1140B6197EB19EC7A",
+  "keywordClasses": [
+    {
+      "name": "product.Config.Automation.GetData",
+      "keywordMethods": [
+        {
+          "name": "getData",
+          "parameters": [
+            {
+              "name": "column_name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

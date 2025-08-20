@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_14 : Create Combination Sch_Addtn Dis_Free Sch_02
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ANY
+Group Get Logic : ANY
+Scheme get type: Free Product
+Slab : Slab_1
+Apply On : RP
+and map the scheme to Location (CITYRJ).</description>
+   <name>SH_14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>588325cd-a397-48ef-aad1-bf580b3d242c</testCaseGuid>
+</TestCaseEntity>

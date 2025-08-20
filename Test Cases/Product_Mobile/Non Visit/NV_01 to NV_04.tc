@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>NV_01 : To verify able to select No Visit
+NV_02 : To verify view functionality
+NV_03 : To verify able to select a Non Visit reason
+NV_04 : To validate GPS outside and inside the fence
+</description>
+   <name>NV_01 to NV_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed9c08fa-6cd0-4d40-b28a-28baa1acef09</testCaseGuid>
+</TestCaseEntity>

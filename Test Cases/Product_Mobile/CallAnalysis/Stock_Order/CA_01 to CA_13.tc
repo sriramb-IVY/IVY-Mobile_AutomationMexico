@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_01 To verify whether &quot;select reason for no order&quot; field should be displayed in call analysis screen
+
+CA_02 To verify whether user can  able to view the Visit duration in the call analysis screen
+
+CA_03 To verify whether user can able to enter reason if No Order is taken in the store visit
+
+CA_04 To verify whether the reason field should be mandatory if no order taken by user
+
+CA_05 To verify Total lines field in call analysis screen.
+
+CA_06 To verify Sales value field in call analysis screen.
+
+CA_07 To verify where Total value, volume Cases, volume piece and sales volume field values are displayed properly in the call analysis screen.
+
+CA_08 To verify whether the no.of ordered MSL product count from Stock&amp;Order screen should be displayed in Call analysis screen
+
+CA_09 To verify whether Total no. of MSL product count from Stock&amp;Order screen should displayed in call analysis screen
+
+CA_10 To verify whether MSL precentage should be displayed in call analysis screen
+
+CA_11To verify whether the no.of ordered focubrand product count from Stock&amp;Order screen should be displayed in call analysis screen
+
+CA_12 To verify whether total no. of focusbrand product count from Stock&amp;Order screen should displayed in call analysis screen
+
+CA_13 To verify whether focusbrand precentage should be displayed in call analysis screen</description>
+   <name>CA_01 to CA_13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f6701e3-7783-4439-b97a-9da4477d5b3b</testCaseGuid>
+</TestCaseEntity>

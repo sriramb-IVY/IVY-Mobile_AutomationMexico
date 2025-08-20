@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from HHTTransactionDataQueueList_Details
+
+delete from HHTTransactionDataQueueList</description>
+   <name>HHTTrancation_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8e254da-e8ae-4b57-86cf-ab5f4001f085</testCaseGuid>
+</TestCaseEntity>

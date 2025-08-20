@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_46 To verify whether captured cheque receipt number from the appdata_collection table should be reflected in the collection view screen 
+CA_47 To verify whether captured cash receipt number from the appdata_collection table should be reflected in the collection view screen 
+CA_48 To verify whether captured creditnote receipt number from the appdata_collection table should be reflected in the collection view screen 
+CA_49 To verify whether collection transcation number from the mobile collection screen is properly inserted into the the appdata_collection table
+CA_50 To verify whether Cash, cheque and creditnote details from the mobile collection screen should be displayed in the collection view screen
+CA_51 To verify that payment type in collection view screen is inserted into DB adm_lovs table</description>
+   <name>CA_43 to CA_51 (Collection_Web_Mobile_DB)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>318562fc-8ea6-45e4-926b-af63bce65e51</testCaseGuid>
+</TestCaseEntity>

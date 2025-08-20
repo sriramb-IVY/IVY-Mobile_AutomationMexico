@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_015->
+1)Create B5_OTP_DV_BUY[EXCL] scheme in scheme master &amp;
+Verify the Total value,Total amount, discount value for slab1
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the actual buy quantity.
+3)Verify the scheme discount not applied for excluded product
+Scheme Type: Quantity
+Scheme Process Type: One Time Process
+Scheme Get Type: Discount Value
+Group Get Logic: -
+Apply On: RP
+Product Exclusion: Yes
+Slab: Single Slab</description>
+   <name>RE_SCH_015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9182a0d5-17ea-4523-9704-374314d0b219</testCaseGuid>
+</TestCaseEntity>

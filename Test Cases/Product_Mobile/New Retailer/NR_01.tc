@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>NR_01 : To verify able to save the new store details</description>
+   <name>NR_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fb657f9-2487-47bb-bdab-88952b4ec84e</testCaseGuid>
+</TestCaseEntity>

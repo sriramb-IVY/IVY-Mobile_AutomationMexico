@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AT_06 : To verify the End button functionality.	
+
+AT_07 : The user must verify attendance reason, start time, end time  should be inserted in the AppData_Attendance_Time_Detail table.
+
+OD_05 To verify that end trip field is enable and able to enter End trip data in the odometer screen
+
+OD_06 To verify whether that the end date and end time fields and values are present in Odometer screen
+
+OD_07 To verify that distance coverage field in the odometer screen
+
+OD_08 To verify whether that van number before ending the trip, it should be displayed  in the odometer screen
+
+OD_09 To verify whether entered start trip and end trip value in mobiile application  is reflected into AppData_OdoMeter_History table</description>
+   <name>AT_06_07, OD_03toOD_09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02f50c54-8761-4b07-94ac-4cc4be06d7ad</testCaseGuid>
+</TestCaseEntity>

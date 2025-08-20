@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_15 To verify the case &amp; piece quantity in the summary Screen
+
+INV_16 To verify the Value field in the Summary Screen
+
+INV_17 To verify the Order value field in Amount Splitup Screen
+
+INV_18 To verify the CGST field in the Amount Splitup Screen 
+
+INV_19 To verify the total field in the  Amount Splitup Screen
+
+INV_20 To verify the icons present in the top of summary screen
+
+INV_21 To verify that the edit icon functionality in the summary screen</description>
+   <name>INV_15_16_17_18_19_20_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a907f7f-fef9-46c0-9dd0-4076bf860c3e</testCaseGuid>
+</TestCaseEntity>

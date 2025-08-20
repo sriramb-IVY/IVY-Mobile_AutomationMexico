@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DB_OtherDate(past,future)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62bab2cb-7223-4753-8010-02ae92bb96e5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c58e6cf-534a-4d49-a95a-e97d2560df45</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>5d3963fe-de40-41c9-afdb-770cd7615672</id>
+      <masked>false</masked>
+      <name>Other_Date</name>
+   </variable>
+</TestCaseEntity>

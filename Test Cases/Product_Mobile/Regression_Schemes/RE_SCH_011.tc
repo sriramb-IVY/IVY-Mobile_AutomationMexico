@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_011->
+1)Create B4_DV_OTP_Slabs_2_Sub_Brand scheme in scheme master &amp;
+Verify the Total value,Total amount, free product name, free product quantity
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the 
+actual buy quantity.
+Scheme Type: Value
+Scheme Process Type: One Time Process
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Group Buy Logic1: ONLY
+Slab: Multi Slab</description>
+   <name>RE_SCH_011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>082de2e8-a473-472c-b373-314cf918a676</testCaseGuid>
+</TestCaseEntity>

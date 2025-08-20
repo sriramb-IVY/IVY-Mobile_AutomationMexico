@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Module_Config_Enable_Update_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b006458-bc2b-4f0f-8e97-4cfc32fda628</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>daf2ec32-9ca5-41d9-8391-08684da79482</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f07f77f-8b2a-4050-a067-97863120a336</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1fffa12-f28f-4d92-844b-c80ace9fd447</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/Module Configuration').getValue('Sales_Rep_Id', 1)</defaultValue>
+      <description></description>
+      <id>daf2ec32-9ca5-41d9-8391-08684da79482</id>
+      <masked>false</masked>
+      <name>Seller_Type_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/Module Configuration').getValue('Config_Code', 0)</defaultValue>
+      <description></description>
+      <id>8f07f77f-8b2a-4050-a067-97863120a336</id>
+      <masked>false</masked>
+      <name>Config_Code</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>c1fffa12-f28f-4d92-844b-c80ace9fd447</id>
+      <masked>false</masked>
+      <name>Rfield</name>
+   </variable>
+</TestCaseEntity>

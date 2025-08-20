@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date Picker - Double Frame</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2780bba-ea28-411d-b54a-1058b84fb861</testCaseGuid>
+   <variable>
+      <defaultValue>'Today'</defaultValue>
+      <description></description>
+      <id>30528f4f-e2ce-4cae-8577-bdaf0cd96d49</id>
+      <masked>false</masked>
+      <name>DateValue</name>
+   </variable>
+</TestCaseEntity>

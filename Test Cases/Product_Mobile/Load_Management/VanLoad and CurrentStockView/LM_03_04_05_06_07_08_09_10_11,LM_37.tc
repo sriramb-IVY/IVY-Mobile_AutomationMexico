@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_03 To verify whether that Van load Stock View screen is displayed while click on vanload menu
+
+LM_04 To verify whether that van loading number should be loaded in the Van Load screen from VanLoad_Header table
+
+LM_05 To verify whether date, total lines and, total value fields should be displayed in the van load screen
+
+LM_06 To verify whether user can able to view product name and case piece Qty
+
+LM_07 To verify whether user can able to accept the van load and verify successfully saved alert
+
+LM_08 To verify whether the functionality of the product hierarchy filter icon in the Current Stock View screen
+
+LM_09 To verify that Current stock view screen product name should be correctly reflected after accepting vanload no
+
+LM_10 To verify that  Current stock view screen SIH qty should be correctly reflected after accepting vanload no
+
+LM_11 To verify whether user can view Total and buttom Total value fields in the Current Stock View screen</description>
+   <name>LM_03_04_05_06_07_08_09_10_11,LM_37</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab8e9ff5-6c5a-4200-8ee8-9fa45303b59f</testCaseGuid>
+</TestCaseEntity>

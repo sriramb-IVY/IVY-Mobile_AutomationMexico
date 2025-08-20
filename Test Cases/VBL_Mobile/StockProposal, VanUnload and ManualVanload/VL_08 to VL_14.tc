@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VL_08 :To verify the “Stock Proposal” screen
+
+VL_09 :To verify the “Stock Proposal” screen Save Functinality
+
+VL_10 :To verify the Case Piece Qty and product name in the stock proposal screen from the mobile is reflected in stock allocation screen.
+
+VL_11 :To verify the user can able do proposed allocation
+
+VL_12  :To verify that whether Current stock view screen details and van unload details were same
+
+VL_13 :To verify the functionality of van unload 
+
+VL_14 :TTo verify whether Entered product,case piece qty from mobile van unload screen is reflected into Van_UnLoad_Detail table
+</description>
+   <name>VL_08 to VL_14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>238a16b2-0c23-43e9-9d4d-b66d99e8b400</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get retailer applied type in retailer attribute screen.</description>
+   <name>RetailerAttribute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ca216bb-aa86-4473-ac19-3360f88f3f1d</testCaseGuid>
+</TestCaseEntity>

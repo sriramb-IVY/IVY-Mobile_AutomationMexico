@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>StartApplication_StockUpdation(OTPR_Scheme)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd5a3170-0cf2-4451-aec3-9dce56015ca6</testCaseGuid>
+</TestCaseEntity>

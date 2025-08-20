@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DC_01 To verify that user can able to add Digital content in all format
+
+DC_02 To verify that file upload successfully alert should be displayed
+
+DC_03 To verify that created digital content details should be displayed in grid
+
+DC_04 To verify that user can able to map Digital content and successful alert
+
+DC_05 To verify that the created Digital content should be reflected into to the digital content screen contains Picture,video and PDF
+
+DC_06 To verify the DB from AppData_Digital_Content_Tracking_Detail table</description>
+   <name>DC_01_02_03_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef554faf-cb00-4cc3-9a5d-3239fdbeb0a8</testCaseGuid>
+</TestCaseEntity>

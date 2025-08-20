@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_13 : Create Combination Sch_Addtn Dis_Free Sch_01
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : AND
+Group Get Logic : AND
+Scheme get type: Free Product
+Slab : Slab_1
+Apply On : RP
+and map the scheme to Distributor (RJRetailer21).</description>
+   <name>SH_13_Credit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3763e9b-885a-43db-a9ac-7d601c35fa04</testCaseGuid>
+</TestCaseEntity>

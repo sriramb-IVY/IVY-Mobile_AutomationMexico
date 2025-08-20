@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme process type: Multiple Time For Remaining
+Scheme get type: Discount value
+Scheme Buy logic: ONLY
+Buy group logic: AND
+Create scheme with the above details in scheme master and verify the scheme is applied on sales order create screen by entering the double times of slab2 buy quantity</description>
+   <name>MTR_SH_23</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c7b2364-f65a-4bde-b40d-25dac01ed014</testCaseGuid>
+</TestCaseEntity>

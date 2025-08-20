@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme_name : MTR_FP_ONLY
+
+Scheme not applied for twice when we not done the close call and apply the same scheme for same product</description>
+   <name>SCE_SH_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4e2cb2f-f36a-40ae-bfbd-ab07cf94229a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Month_Option</name>
+   <tag></tag>
+   <elementGuidId>295d1205-e82c-4550-9c68-5c70d6fe65a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//option[(text() = '${GlobalVariable.sMonth}' or . = '${GlobalVariable.sMonth}') and @ref_element = 'Object Repository/VBL/Reusables/Frame/iframe_Logout_iContent']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>5a39c8b6-bef9-4370-a157-358aa510b4db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Mar</value>
+      <webElementGuid>6f7763fd-87ec-43ea-a84a-0436348377f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${GlobalVariable.sMonth}</value>
+      <webElementGuid>442fc1e3-e6b7-4be8-b757-dffcd9cc61f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/XXXXXXXXXXXX/Re-usable/Date picker/iframe_Logout_iContent</value>
+      <webElementGuid>7ec6e5b8-bf75-4c62-8dfb-c370dc5e4c9f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VL_01 To verify user can able to put order in Stock allocation
+
+</description>
+   <name>VL_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfd3f876-a3b8-4c76-90ba-2af998813343</testCaseGuid>
+</TestCaseEntity>

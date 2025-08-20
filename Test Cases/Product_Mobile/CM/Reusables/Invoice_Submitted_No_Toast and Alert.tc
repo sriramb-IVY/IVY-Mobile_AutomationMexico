@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invoice_Submitted_No_Toast and Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24421ccb-6ec5-4c7e-8c94-22e1ee5c7c8a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbbd815a-b747-4674-b271-d89b4e297629</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fbbd815a-b747-4674-b271-d89b4e297629</id>
+      <masked>false</masked>
+      <name>Expecting_Alert_Text</name>
+   </variable>
+</TestCaseEntity>

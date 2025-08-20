@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Indicative collection DB</description>
+   <name>ER_Ind_DB-Empty Return</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a089a3c7-8018-4019-8b9c-fb98a4e0fdf7</testCaseGuid>
+</TestCaseEntity>

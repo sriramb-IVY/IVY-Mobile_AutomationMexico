@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TRIP_06 : To verify user able to view the End trip button under the 'End of the Day' menu
+
+TRIP_07 : To verify that the alert is visible, when the user clicks &quot;End Trip&quot; button.
+
+TRIP_08 : To verify that the alert is not visible when the user clicks the &quot;CANCEL&quot; button on the &quot;End of the Day&quot;  screen.
+
+TRIP_09 : To verify that the &quot;Trip Ended Successfully. Day closed&quot; alert is visible when the user clicks the &quot;OK&quot; button on the &quot;End of the Day&quot; screen.
+
+TRIP_10 : To verify that the user is able to move to the next screen after ending the trip.</description>
+   <name>Trip_06 to 10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58423e84-f953-4516-9e6c-f8c35af58000</testCaseGuid>
+</TestCaseEntity>

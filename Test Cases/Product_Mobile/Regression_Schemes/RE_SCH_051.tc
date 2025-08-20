@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_023->
+1)Ceate B7_MTS_DV_SS_(BUY_EXCL)CAT scheme in scheme master and verify the Total value,
+Total amount, discount value for slab1
+2)To verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+3)Verify the scheme discount not applied for excluded product
+Scheme Type: Quantity
+Scheme Process Type: One Time Process
+Scheme Get Type: Discount Value
+Scheme Buy Logic: ONLY
+Group Buy Logic: -AND
+Apply On: RP
+Product Exclusion: Yes
+Slabs : Single slab</description>
+   <name>RE_SCH_051</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54583b34-b628-48b3-af34-3d46abb09892</testCaseGuid>
+</TestCaseEntity>

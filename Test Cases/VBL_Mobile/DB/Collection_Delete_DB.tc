@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from appdata_collection
+
+delete from appdata_collection_request
+
+</description>
+   <name>Collection_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff6986ab-36c7-49ac-af93-9b0826c8afc5</testCaseGuid>
+</TestCaseEntity>

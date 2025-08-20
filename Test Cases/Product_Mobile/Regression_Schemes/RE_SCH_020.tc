@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_020->
+1)Create B6_MTS_FP_SS_Get(AND) scheme in scheme master and verify the Total value,scheme amount for slab1
+2)To verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type:Quantity
+Scheme Process Type: MTS
+Scheme Get Type: Free Quantity
+Scheme Buy Logic: ONLY
+Group Buy Logic: ONLY
+Scheme  Get Logic: AND
+Group Get Logic1: ANY
+Group Get Logic2: ANY
+Apply On: RP</description>
+   <name>RE_SCH_020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4add2266-8520-4e5d-9e3b-fff5e084411f</testCaseGuid>
+</TestCaseEntity>

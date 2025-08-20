@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TM_10 : To verify that task from CPG in the mobile
+TM_11 : To verify that user can add task details by entering the data in the task add screen
+TM_12 : To verify that user can't pass the past date in the due date field
+TM_13 : To verify that 'Applicable for' field will be auto populated as Retailer and will be Non-editable
+TM_14 : To verify that user can save the new task
+TM_15 : To verify that user able to view a list of Tasks in different tabs.
+TM_16 : To verify that user can open and execute the both mobile and CPG task
+TM_17 : To verify that user take evidence photo while execute the task</description>
+   <name>TM_10 to TM_17</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7861df1e-b876-495d-8f47-482209cc1f2a</testCaseGuid>
+</TestCaseEntity>

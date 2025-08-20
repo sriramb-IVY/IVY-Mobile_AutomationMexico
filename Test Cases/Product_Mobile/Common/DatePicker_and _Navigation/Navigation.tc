@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25cef342-fe0c-4685-9768-faaf9f4a11dc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f2e2420-e39d-4723-b84a-e05e5546ce23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Transactions;Receivables;Collections;Collections'</defaultValue>
+      <description></description>
+      <id>7f2e2420-e39d-4723-b84a-e05e5546ce23</id>
+      <masked>false</masked>
+      <name>Navigation</name>
+   </variable>
+</TestCaseEntity>

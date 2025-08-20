@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check credit note amount in DB and Credit Note view screen in Web.</description>
+   <name>SRR_15_16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf38d652-ec35-4a05-b64d-18d9de2afd02</testCaseGuid>
+</TestCaseEntity>

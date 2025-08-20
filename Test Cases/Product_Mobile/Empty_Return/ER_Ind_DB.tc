@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Indicative collection DB</description>
+   <name>ER_Ind_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f42b24fb-5b07-47ac-a88a-71eaffdf271f</testCaseGuid>
+</TestCaseEntity>

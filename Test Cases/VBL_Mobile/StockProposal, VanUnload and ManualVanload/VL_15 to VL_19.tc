@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VL_15 :To verify whether the list of the available products with product name and SIH should be displayed in the manual van load screen.
+VL_16 :To verify whether user can't enter negative quantity to the product in the  Manual Van Load screen
+VL_17 :To verify whether user can able to enter quantity to the product in the Manual van load screen
+VL_18 :To verify whether user can save the data in the Manual van load screen and save successuful alert must be shown
+VL_19 :To verify whether saved Manual van load screen data should be reflected in the curren stock view screen</description>
+   <name>VL_15 to VL_19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66c5ab27-6b54-4b46-8329-787d7a14824e</testCaseGuid>
+</TestCaseEntity>

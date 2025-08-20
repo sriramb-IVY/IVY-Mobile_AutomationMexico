@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Freeproduct scheme DB validation</description>
+   <name>SOB_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46a66c7d-da6f-468f-8e38-dfe46100c366</testCaseGuid>
+</TestCaseEntity>

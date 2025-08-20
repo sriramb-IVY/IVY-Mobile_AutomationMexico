@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from AppData_Stock_Proposal_Detail
+
+delete from AppData_Stock_Proposal_Header</description>
+   <name>StockProposal_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e084a3c9-0ef6-45a2-b5c5-8fdfc30e833c</testCaseGuid>
+</TestCaseEntity>

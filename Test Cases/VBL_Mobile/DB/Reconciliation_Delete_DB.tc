@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reconciliation_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0bf7736-7f1c-4c01-b193-4c3e167aa83c</testCaseGuid>
+</TestCaseEntity>

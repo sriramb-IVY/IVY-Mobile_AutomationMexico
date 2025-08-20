@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Scheme mapped distributor and retailer mapped distributor should be matched in division login
+2. Scheme mapped attribute and retailer mapped attribute should be matched in division login
+3. Scheme name, apply type, discount value should be verified in applying scheme screen
+4. scheme code, name, slab name should be verified in scheme aplied list. 
+5. Discount value should be verified</description>
+   <name>SCM_24</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30882933-c1e3-403a-a90d-f943f48bb5af</testCaseGuid>
+</TestCaseEntity>

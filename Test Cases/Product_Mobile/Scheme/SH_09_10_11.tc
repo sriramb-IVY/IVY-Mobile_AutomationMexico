@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_09 : Create OTPR_Free_Scheme_01
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ONLY
+Group Get Logic : ONLY
+Scheme get type: Free Product
+Slab : Slab_1 , Slab_2 and Slab_High
+and map the scheme to retailer(ZZZ Store).
+
+SH_10 : To verify whether applied scheme (OTPR_Free_Scheme_01) details in mobile  are reflected into the database (sales_invoice_scheme_detail,adm_scheme)
+
+SH_11 : To verify whether applied scheme (OTPR_Free_Scheme_01) details in mobile  are reflected into the Sales invoice view screen</description>
+   <name>SH_09_10_11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2fe48c9-abc7-4134-809c-47a825de32f8</testCaseGuid>
+</TestCaseEntity>

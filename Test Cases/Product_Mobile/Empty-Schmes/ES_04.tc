@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme : Empties_Scheme_OTP_Discount_Every</description>
+   <name>ES_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96742a54-b5d0-4033-b683-c132b07ed6f1</testCaseGuid>
+</TestCaseEntity>

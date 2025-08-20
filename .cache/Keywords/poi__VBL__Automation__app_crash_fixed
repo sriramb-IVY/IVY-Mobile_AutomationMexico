@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "DE7FDC25EAA0553BFD2AFBDB6E36C2D2",
+  "keywordClasses": [
+    {
+      "name": "poi.VBL.Automation.app_crash_fixed",
+      "keywordMethods": [
+        {
+          "name": "killNodejs",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

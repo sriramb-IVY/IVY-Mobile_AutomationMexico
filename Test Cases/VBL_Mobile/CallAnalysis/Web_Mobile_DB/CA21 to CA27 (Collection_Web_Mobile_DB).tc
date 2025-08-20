@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_21 To verify whether the Transaction Id from the mobile device is inserted into DB and capture the Collection Receipt number from the Collection Request Table.
+
+CA_22 To verify whether the Collection Receipt number from the collection request table is reflected in the Collection Acceptance screen.
+
+CA_23 To verify that Paid Amount is Zero in the appdata_pending_billst table before accepting the collection
+
+CA_24 To verify whether the user can capture the Collection details from the collection appdata_pending_billst table and validate the same in the collection acceptance screen
+
+CA_25 To verify whether the Collection Details from the mobile are inesrted into the DB appdata_pending_bills table.
+
+CA_26 To verify whether the Collection Details in the Collection view screen is inserted into DB appdata_collection table and capture the same  from the Collection Table.
+
+CA_27 To verify that payment type in collection view screen is inserted into DB adm_lovs table</description>
+   <name>CA21 to CA27 (Collection_Web_Mobile_DB)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>318562fc-8ea6-45e4-926b-af63bce65e51</testCaseGuid>
+</TestCaseEntity>

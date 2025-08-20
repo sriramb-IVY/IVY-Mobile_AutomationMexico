@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DEV_01 : To Verify that user can able to click the deviation menu button
+DEV_02 : To verify that user can able to  deviate the visit planned for the current date
+DEV_03 : To verify that the retailer can able to add new store 
+DEV_04 : To verify that user can able to create the deviate plan only for the currect date
+DEV_05 : To verify that user can able to select reason 
+DEV_06 : To Verify that reason functionaly is mandatory
+DEV_07 : To verify that user can able to view list of stores
+</description>
+   <name>DEV_01 to DEV_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d70647c-c21c-4df9-9e04-f88bfd6ae39e</testCaseGuid>
+</TestCaseEntity>

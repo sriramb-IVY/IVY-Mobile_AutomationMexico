@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_11 To verify the product details tab should be present in Product Scheme details Screen
+INV_12 To verify that the fields name under present in Product details tab 
+INV_13 To verify that the fields value under present in Product details tab 
+INV_14 To verify that user can able to enter case &amp; piece quantity in the Product scheme details Screen
+INV_35 To verify whether the user can view the fields and label of the Delivery Date popup screen in the summary screen while generating an order and invoice.
+INV_36 To verify the delivery date loads correctly and prevents selecting past dates in the calendar.
+INV_37 To verify that selecting the Cancel button closes the calendar popup without loading data, and clicking Confirm button triggers the next popup alert.
+INV_38 To verify whether users are prevented from entering quantities exceeding the available SIH
+INV_39 To verify whether users can select when stock is available for SKU.</description>
+   <name>INV_11_12_13_14_35_36_37_38_39</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f17d3bdc-1db6-428d-a130-79e4c13952f1</testCaseGuid>
+</TestCaseEntity>

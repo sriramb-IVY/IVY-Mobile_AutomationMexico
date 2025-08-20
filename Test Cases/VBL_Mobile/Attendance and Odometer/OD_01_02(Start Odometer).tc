@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>OD_01 To verify that Odometer screen is displaying while select odometer menu
+
+OD_02 To verify that Start trip field is enable</description>
+   <name>OD_01_02(Start Odometer)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a61f8fc-323b-4e2b-8c2a-abacc6a1d462</testCaseGuid>
+</TestCaseEntity>

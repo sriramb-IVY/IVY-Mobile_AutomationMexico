@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TM_19 : To verify that One time task will not be shown next time/day
+TM_20 : To verify that routine tasks will be shown on daily basis
+TM_21 : To verify that completed task load under the completed tab</description>
+   <name>TM_19_20_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7540cbf9-bc1a-41be-857b-5339a70f60b9</testCaseGuid>
+</TestCaseEntity>

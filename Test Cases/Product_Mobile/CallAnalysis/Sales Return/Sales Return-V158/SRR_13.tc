@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When add two reasons and remove one reasons replacement product should not remove.
+
+Steps:
+1)Add one return reason
+2)Go to Replacement and add one product and qty
+3)Go to return and add another reason
+4)Go to replacement screen and add another product and qty
+5)Go to return screen and check added reasons loading
+6)Go to replacement and remove secondly added product
+7)Go to return and remove one reason
+Validate: Check now remaining replacement product and qty is loading in Replace screen.</description>
+   <name>SRR_13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4500b1d3-f1c3-4938-b1f3-de97e224719c</testCaseGuid>
+</TestCaseEntity>

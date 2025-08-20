@@ -1,0 +1,324 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+//Mobile.startApplication(GlobalVariable.APKFile, false)
+
+if (Mobile.verifyElementExist(findTestObject('Mobile/Common/Btn_Menu'), 2, FailureHandling.OPTIONAL)) {
+	'Main menu visible'
+} else {
+	'App relaunch'
+	Mobile.callTestCase(findTestCase('Product_Mobile/Common/Mobile_Login/Relaunch the app'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+}
+
+Mobile.tap(findTestObject('Mobile/Common/Btn_Menu'), 10)
+
+Scheme_Index = 3
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/TradeCoverage(SelectRetailer)'), [('RetailerName') : findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('Retailer', Scheme_Index)], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_FunnelFilter'), 5)
+
+Mobile.tap(findTestObject('Mobile/Common/Btn_Apply'), 5)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Search'), 4, FailureHandling.OPTIONAL)
+
+//slab_1
+'Slab_1'
+
+/// !_Sku
+'ANY Logic'
+GlobalVariable.ProductName = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('BuyProduct1', Scheme_Index)
+
+Mobile.setText(findTestObject('Mobile/Common/Field_Search_EnterText'), GlobalVariable.ProductName, 5)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/OrderInvoice/ProductName-(Global)'), 5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Mobile/OrderInvoice/Tab-Product Details'), 5)
+
+Mobile.takeScreenshot()
+
+Actual_BasePrice = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/BasePrice_Value_Field'), 0)
+
+Actual_PiecePrice = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/PiecePrice_Value_Field'), 0)
+
+Actual_CaseSize = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/CaseSize_Value_Field'), 0)
+
+Mobile.tap(findTestObject('Mobile/OrderInvoice/Case_Field'), 0)
+
+Slab_1_Min_Qty = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('Slab_1_Min_Qty', Scheme_Index)
+
+String Slab_Qty = Integer.parseInt(Slab_1_Min_Qty)
+
+println(GlobalVariable.Qty = Slab_Qty)
+
+Mobile.callTestCase(findTestCase('Product_Mobile/Common/Enter_CASE_Qty'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Back'), 0)
+
+Mobile.delay(2)
+
+SKU_TOTAL = Mobile.getText(findTestObject('Mobile/OrderInvoice/OrderInvoiceScrn-SkuTotal'), 0)
+
+Total = ((Double.parseDouble(Actual_CaseSize) * Double.parseDouble(Slab_Qty)) * Double.parseDouble(Actual_PiecePrice))
+
+Mobile.verifyEqual(Double.parseDouble(SKU_TOTAL), Total, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo('Sku Total Amount calculated and displayed correctly according the formula.')
+
+GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Slab1', Scheme_Index)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Search'), 2, FailureHandling.OPTIONAL)
+
+Mobile.setText(findTestObject('Mobile/Common/Field_Search_EnterText'), GlobalVariable.Scheme_Free_SKU, 5)
+
+Mobile.delay(2)
+
+GlobalVariable.ProductName = GlobalVariable.Scheme_Free_SKU
+
+Mobile.tap(findTestObject('Mobile/OrderInvoice/ProductName-(Global)'), 5, FailureHandling.STOP_ON_FAILURE)
+
+Actual_PiecePrice1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/PiecePrice_Value_Field'), 0)
+
+Actual_CaseSize1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/CaseSize_Value_Field'), 0)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Back'), 0)
+
+Mobile.delay(2)
+
+//Free product 2
+GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct02_Slab1', Scheme_Index)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Search'), 2, FailureHandling.OPTIONAL)
+
+Mobile.setText(findTestObject('Mobile/Common/Field_Search_EnterText'), GlobalVariable.Scheme_Free_SKU, 5)
+
+Mobile.delay(2)
+
+GlobalVariable.ProductName = GlobalVariable.Scheme_Free_SKU
+
+Mobile.tap(findTestObject('Mobile/OrderInvoice/ProductName-(Global)'), 5, FailureHandling.STOP_ON_FAILURE)
+
+Actual_PiecePrice_1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/PiecePrice_Value_Field'), 0)
+
+Actual_CaseSize_1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/CaseSize_Value_Field'), 0)
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Back'), 0)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('Mobile/Common/Btn_Next'), 0)
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/MustSell_Alert'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Mobile/OrderInvoice/Scheme/SchemeName'), 15)
+
+SchemeName = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeName'), 5)
+
+SchemeDesc = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeDesc'), 5)
+
+Mobile.verifyMatch(SchemeName, findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('SchemeName', Scheme_Index), false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(SchemeName + ' : Scheme Name correctly applied !')
+
+Mobile.verifyMatch(SchemeDesc, findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('SchemeDescSlab1', Scheme_Index), false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(SchemeDesc + ' :Slab 1 Scheme Description correctly displayed !')
+
+Mobile.tap(findTestObject('Mobile/OrderInvoice/Scheme/Scheme_View_Btn'), 0)
+
+GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Slab1', Scheme_Index)
+
+Mobile.waitForElementPresent(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU'), 5)
+
+FreeSKU_Qty_Slab1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_Qty(Global)'), 5)
+
+Free_Qty = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1', Scheme_Index)
+
+if (Mobile.verifyMatch(FreeSKU_Qty_Slab1, Free_Qty, false, FailureHandling.STOP_ON_FAILURE)) {
+	
+	GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Slab1', Scheme_Index)
+
+	Mobile.tap(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_Qty(Global)'), 0)
+
+	Mobile.tap(findTestObject('Object Repository/Mobile/Common/Vertical keypad-BackSpace'), 0, FailureHandling.OPTIONAL)
+
+	Mobile.tap(findTestObject('Object Repository/Mobile/Common/Vertical keypad-BackSpace'), 0, FailureHandling.OPTIONAL)
+
+	GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct02_Slab1', Scheme_Index)
+
+	Mobile.tap(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_Qty(Global)'), 0)
+
+	GlobalVariable.keypadValue = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1', Scheme_Index)
+
+	Mobile.tap(findTestObject('Object Repository/Mobile/Common/Global_Number_keypad'), 5)
+
+	Slab1_FreeSku_Amt = ((Double.parseDouble(Actual_CaseSize_1) * Double.parseDouble(GlobalVariable.keypadValue)) * Double.parseDouble(Actual_PiecePrice_1))
+
+	KeywordUtil.logInfo(Slab1_FreeSku_Amt + ' : Free product amount!')
+
+	GlobalVariable.free_sku_amt = Slab1_FreeSku_Amt
+	
+} else if (Mobile.verifyNotMatch(FreeSKU_Qty_Slab1, Free_Qty, false, FailureHandling.STOP_ON_FAILURE)) {
+	
+	GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct02_Slab1', Scheme_Index)
+
+	Mobile.tap(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_Qty(Global)'), 0)
+
+	Mobile.tap(findTestObject('Object Repository/Mobile/Common/Vertical keypad-BackSpace'), 0, FailureHandling.OPTIONAL)
+
+	Mobile.tap(findTestObject('Object Repository/Mobile/Common/Vertical keypad-BackSpace'), 0, FailureHandling.OPTIONAL)
+
+	GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Slab1', Scheme_Index)
+
+	Mobile.tap(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_Qty(Global)'), 0)
+
+	GlobalVariable.keypadValue = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1', Scheme_Index)
+
+	Mobile.tap(findTestObject('Object Repository/Mobile/Common/Global_Number_keypad'), 5)
+
+	Slab1_FreeSku_Amt = ((Double.parseDouble(Actual_CaseSize1) * Double.parseDouble(FreeSKU_Qty_Slab1)) * Double.parseDouble(Actual_PiecePrice1))
+
+	KeywordUtil.logInfo(Slab1_FreeSku_Amt + ' : Free product amount!')
+
+	GlobalVariable.free_sku_amt = Slab1_FreeSku_Amt
+}
+
+KeywordUtil.logInfo(GlobalVariable.Scheme_Free_SKU + ' : Free product!')
+
+Mobile.waitForElementPresent(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU'), 5)
+
+FreeProduct_Slab1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU'), 5)
+
+FreeSKU_Qty_Slab1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_Qty(Global)'), 5)
+
+FreeSKU_MinQty_Slab1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_MinQty(Global)'), 5)
+
+FreeSKU_MaxQty_Slab1 = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeViewScreen_FreeSKU_MaxQty(Global)'), 5)
+
+Mobile.verifyMatch(FreeProduct_Slab1, GlobalVariable.Scheme_Free_SKU, false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(FreeProduct_Slab1 + ' :Slab 1 Free product correctly displayed !')
+
+Mobile.verifyMatch(FreeSKU_Qty_Slab1, findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1', Scheme_Index), false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(FreeSKU_Qty_Slab1 + ' :Slab 1 Free Product Case Qty correctly displayed !')
+
+Expecetd_FreeSKU_MinQty_Slab1 = ('Min:' + findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1', Scheme_Index))
+
+Mobile.verifyMatch(FreeSKU_MinQty_Slab1.replaceAll('\\s', ''), Expecetd_FreeSKU_MinQty_Slab1, false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(FreeSKU_MinQty_Slab1 + ' :Slab 1 Free Product Min Case Qty correctly displayed !')
+
+Expecetd_FreeSKU_MaxQty_Slab1 = ('Max:' + findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1_MAX', Scheme_Index))
+
+Mobile.verifyMatch(FreeSKU_MaxQty_Slab1.replaceAll('\\s', ''), Expecetd_FreeSKU_MaxQty_Slab1, false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(FreeSKU_MaxQty_Slab1 + ' : Slab 1 Free Product Max Case Qty correctly displayed !')
+
+Mobile.tap(findTestObject('Mobile/Common/Btn_Done'), 0)
+
+Mobile.tap(findTestObject('Mobile/Common/Btn_Next'), 0)
+if (Mobile.verifyElementVisible(findTestObject('Mobile/OrderInvoice/Empty_Product_Details_Title'),
+	3, FailureHandling.OPTIONAL)) {
+	
+		Mobile.tap(findTestObject('Mobile/Common/Btn_Done'), 4, FailureHandling.OPTIONAL)
+		Mobile.delay(2)
+	
+	}
+
+//GlobalVariable.Scheme_Free_SKU = findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Slab1',
+//    Scheme_Index)
+
+Mobile.verifyElementVisible(findTestObject('Mobile/SummaryScreen/Summary_FreeSkuTitle(Global)'), 5)
+
+Slab1_FreeSku = Mobile.getText(findTestObject('Mobile/SummaryScreen/Summary_FreeSkuTitle(Global)'), 5)
+
+Slab1_FreeSku_CaseQty = Mobile.getText(findTestObject('Mobile/SummaryScreen/Summary_GetProductBasedCaseQty(Global)'), 5)
+
+Mobile.verifyMatch(Slab1_FreeSku, GlobalVariable.Scheme_Free_SKU, false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(Slab1_FreeSku + ' :Slab 1 Free Product  correctly displayed in Summary Screen !')
+
+Mobile.verifyMatch(Slab1_FreeSku_CaseQty, findTestData('Mobile Input Data/Automatio_Apportionate_Scheme').getValue('FreeProduct_Case_Slab1', Scheme_Index), false, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(Slab1_FreeSku_CaseQty + ' :Slab 1 Free Product Case Qty correctly displayed in Summary Screen !')
+
+Mobile.verifyElementVisible(findTestObject('Mobile/SummaryScreen/SummaryScreen-InfoIcon'), 15)
+
+Mobile.tap(findTestObject('Mobile/SummaryScreen/SummaryScreen-InfoIcon'), 0)
+
+OrderAmt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen-OrderAmt'), 0)
+
+Scheme_Amt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen_SCHEME Amt'), 0)
+
+SchemeAmt = Scheme_Amt.replaceAll('- ', '')
+
+KeywordUtil.logInfo(SchemeAmt)
+
+Mobile.verifyEqual(Double.parseDouble(SchemeAmt), GlobalVariable.free_sku_amt, FailureHandling.STOP_ON_FAILURE)
+
+KeywordUtil.logInfo(SchemeAmt + ' : Scheme amount displayed correctly in summary screen !')
+
+Mobile.takeScreenshot()
+
+Calculated_OrderAmt = (Total + GlobalVariable.free_sku_amt)
+
+Mobile.verifyEqual(Double.parseDouble(OrderAmt), Calculated_OrderAmt, FailureHandling.STOP_ON_FAILURE)
+
+KeywordUtil.logInfo(OrderAmt + ' : Apportionate Scheme Order value displayed correctly in summary screen !')
+
+Mobile.takeScreenshot()
+
+CGST = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen-CGST Value'), 0)
+
+TotalAmt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SliptScreen_TotalAmt'), 0)
+
+Calculated_TotalAmt = ((Double.parseDouble(OrderAmt) + Double.parseDouble(CGST)) - Double.parseDouble(SchemeAmt))
+
+Mobile.verifyEqual(Double.parseDouble(TotalAmt), Calculated_TotalAmt, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+KeywordUtil.logInfo(Calculated_TotalAmt.toString() + ' : Total amount in split screen displayed correctly !')
+
+Mobile.tap(findTestObject('Mobile/SummaryScreen/SummaryScreen-info_closeBtn'), 0)
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/Generate_OrderInvoice and CloseCall'), [:], FailureHandling.STOP_ON_FAILURE)
+

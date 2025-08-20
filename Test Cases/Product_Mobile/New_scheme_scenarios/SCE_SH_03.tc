@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_21 : Create Automatio_Apportionate_Scheme_3
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ANY
+Group Get Logic : ANY
+Scheme get type: Free Product
+Slab : Slab_1
+Apply On : RP
+
+Scheme scenario:Get ANY Logic Product wise
+When we buy product get ANY logic free qty applied for one product that time edit the free product qty to another product and verify scheme apply correctly.</description>
+   <name>SCE_SH_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10c3f25a-6c87-48e9-87b9-94cc1ef1b409</testCaseGuid>
+</TestCaseEntity>

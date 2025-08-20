@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>postgredbconnectivity</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bf41f53b-7cb6-4c09-8c23-edd642ed550e</testCaseGuid>
-</TestCaseEntity>

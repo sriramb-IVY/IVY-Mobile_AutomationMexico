@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from appdata_sales_invoice_detail
+
+delete from appdata_sales_invoice_scheme_detail
+
+delete from appdata_sales_invoice_tax_detail
+
+delete from appdata_sales_invoice_discount_detail
+
+delete from AppData_Sales_Invoice_Scheme_Detail_Credit
+
+delete from appdata_sales_invoice_header</description>
+   <name>Invoice_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bafe8065-5ecd-4e1d-8f1a-ff1e27b0ea9f</testCaseGuid>
+</TestCaseEntity>

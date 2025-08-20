@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AT_01 To verify whether attendance screen title while select attendance menu and selected reason should be reflected to reason field in the attendance screen.
+
+AT_02 The user must verify whether an order can be created without attendance.
+
+AT_03  The user must verify whether an order can be create with attendance.
+
+</description>
+   <name>AT_01_02_03(Start Attendance)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c8c4b46-0890-40ed-b7f2-6021a8a20260</testCaseGuid>
+</TestCaseEntity>

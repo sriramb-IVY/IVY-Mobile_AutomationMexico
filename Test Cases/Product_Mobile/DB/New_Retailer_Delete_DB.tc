@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete New retailers added from Mobile</description>
+   <name>New_Retailer_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b339d21-40e0-4555-8831-01ab31886a07</testCaseGuid>
+</TestCaseEntity>

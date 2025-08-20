@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VanSeller_withoutAttendance</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae9938f0-00e7-42f4-b112-7be44018d0fa</testCaseGuid>
+</TestCaseEntity>

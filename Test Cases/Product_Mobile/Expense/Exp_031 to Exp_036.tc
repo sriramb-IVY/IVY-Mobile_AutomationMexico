@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exp_031	To verify whether the Expense details are visible in the Current Month tab after Sync.
+Exp_032	To verify whether the approved and rejected expenses are visible in the mobile application.
+Exp_033	To verify the Status difference in the MTD grid.
+Exp_034	To verify the Total Amount in the MTD screen.
+Exp_035	To validate the approved expense details in the AppData_Expense_Header and AppData_Expense_Detail table
+Exp_036	To validate the rejected expense details in the AppData_Expense_Header and AppData_Expense_Detail table</description>
+   <name>Exp_031 to Exp_036</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba576f2b-7bd4-4c41-8ad5-16062003fbe3</testCaseGuid>
+</TestCaseEntity>

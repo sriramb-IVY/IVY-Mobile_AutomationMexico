@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from AppData_Van_UnLoad_Detail
+
+delete from AppData_Van_UnLoad_header</description>
+   <name>VanUnload_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20102352-d765-4605-952f-9d246f1845bc</testCaseGuid>
+</TestCaseEntity>

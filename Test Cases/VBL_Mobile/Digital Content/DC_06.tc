@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the DB from AppData_Digital_Content_Tracking_Header and Detail table</description>
+   <name>DC_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc0a12c0-a16b-49c2-bfb8-e57094a4e284</testCaseGuid>
+</TestCaseEntity>

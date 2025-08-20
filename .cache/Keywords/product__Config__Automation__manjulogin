@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "13275FE0A163D3618B9E31A5304D35DE",
+  "keywordClasses": [
+    {
+      "name": "product.Config.Automation.manjulogin",
+      "keywordMethods": [
+        {
+          "name": "manju",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

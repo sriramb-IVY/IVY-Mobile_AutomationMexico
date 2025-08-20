@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select filter icon and remove all filters</description>
+   <name>Clear_Star_Filter_Default_Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bc6867f-711a-4fda-a442-7e65bd5b524e</testCaseGuid>
+</TestCaseEntity>

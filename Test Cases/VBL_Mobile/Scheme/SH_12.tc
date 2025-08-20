@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_12 : Create DMS Free Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ANY
+Group Get Logic : ONLY
+Scheme get type: Free Product
+Slab : Slab_1
+and map the scheme to retailer(ZZZ Store).</description>
+   <name>SH_12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62bc86f7-8149-42f4-988b-856bc6dcac0e</testCaseGuid>
+</TestCaseEntity>

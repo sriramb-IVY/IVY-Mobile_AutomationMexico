@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TP_03 : To verify whether the Given data from the mobile device is inserted into appdata_order_detail</description>
+   <name>TP_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6dc16e5-22ab-4d1d-9565-134888a7cd58</testCaseGuid>
+</TestCaseEntity>

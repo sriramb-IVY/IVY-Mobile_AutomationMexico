@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Month and Year</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>559be215-cbd7-4039-9cf7-4d7c87f49632</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7fd0b99d-3dab-4735-8b0a-9d0eb411f591</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>7fd0b99d-3dab-4735-8b0a-9d0eb411f591</id>
+      <masked>false</masked>
+      <name>DateCount</name>
+   </variable>
+</TestCaseEntity>

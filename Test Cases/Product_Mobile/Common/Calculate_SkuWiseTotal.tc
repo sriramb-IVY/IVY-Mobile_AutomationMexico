@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Calculate_SkuWiseTotal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e19b73e-4b0d-4799-9e76-2c78f0a3b4a1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8c51e14-08a7-408e-8a72-c937aa88fe63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a2efdb4-d9ff-488e-9f2d-79f80349b484</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a7e8863-e0c4-4fd4-b506-add0900ea95a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8c51e14-08a7-408e-8a72-c937aa88fe63</id>
+      <masked>false</masked>
+      <name>ProductName</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>6a2efdb4-d9ff-488e-9f2d-79f80349b484</id>
+      <masked>false</masked>
+      <name>CaseQty</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>5a7e8863-e0c4-4fd4-b506-add0900ea95a</id>
+      <masked>false</masked>
+      <name>PieceQty</name>
+   </variable>
+</TestCaseEntity>

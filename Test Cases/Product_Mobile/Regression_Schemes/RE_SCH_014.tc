@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_014->
+1)CreateB5_OTP_FP_ADDISC_MS scheme with additional discount in scheme master 
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the actual buy quantity.
+Scheme Process Type: One Time Process
+Scheme Get Type: Free Product
+Scheme Buy Logic: AND
+Scheme Get Logic: ONLY
+Group Get Logic1: ANY
+Group Get Logic2: ONLY
+Group Get Logic:ONLY
+Additional Discount: Yes
+Slab: Multi slab</description>
+   <name>RE_SCH_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dfccd76-52d8-4dcb-93e1-4d56c066e7e4</testCaseGuid>
+</TestCaseEntity>

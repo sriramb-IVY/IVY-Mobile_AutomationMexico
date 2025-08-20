@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_23 : Create DP_FS_OTP_Automation_Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : 
+Group Buy Logic : ONLY
+Group Get Logic : 
+Scheme get type: Discount Percentage
+Apply On : MRP
+and map the scheme to Retailer (RJRetailer016, RJRetailer01_FDD, RJRetailer02_Fixed scheme, RJRetailer04_Variable scheme)</description>
+   <name>SH_23</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f424378e-1a62-4e64-a86a-6993eeda9c3f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SC_01 : To verify able to view a list of Products available with mentioned details
+SC_02 : To verify able to select if product is available/Out Of
+Stock
+SC_03 : To verify able to enter UOM wise product quantity
+SC_04 : To verify able to enter number of facings for a product in Stock check screen
+SC_05 : To verify able to view number of lines checked of total
+ number of lines of product
+SC_06 : To verify Save functionality in Stock check screen</description>
+   <name>SC_01 to SC_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab77bb70-6bfd-4456-9cd1-a3ae66b6ebec</testCaseGuid>
+</TestCaseEntity>

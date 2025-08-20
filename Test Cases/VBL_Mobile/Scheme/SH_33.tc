@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_33 : Create FP_VS_OTP_Automation_Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ONLY
+Group Get Logic : ONLY
+Scheme get type: Free Product 
+Apply On : RP
+and map the scheme to Retailer (RJRetailer016, RJRetailer01_FDD, RJRetailer02_Fixed scheme, RJRetailer04_Variable scheme)</description>
+   <name>SH_33</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6bcc4c1-af82-4c60-974d-ab821686320d</testCaseGuid>
+</TestCaseEntity>

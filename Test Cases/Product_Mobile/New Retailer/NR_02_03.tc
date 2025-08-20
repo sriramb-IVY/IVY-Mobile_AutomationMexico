@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>NS_02 : To verify the store name is same as given in Mobile should be insert in Database
+NS_03 : To verify following details is same as given in mobile
+i)Store Name
+ii)Route
+iii)Sub Channel
+iv)Contact Person Name
+v)Phone No</description>
+   <name>NR_02_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81c8327f-6065-4870-a8db-2d182c2a8654</testCaseGuid>
+</TestCaseEntity>

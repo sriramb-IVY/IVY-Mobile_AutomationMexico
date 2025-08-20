@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Retailer credit limit validations</description>
+   <name>CDM_042_043_done</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64638457-416c-4d98-a2ac-b5146066efba</testCaseGuid>
+</TestCaseEntity>

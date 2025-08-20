@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Scheme mapped retailer and retailer taken should be matched in division login
+2. Scheme mapped distributor and retailer mapped distributor should be matched in division login
+3. Scheme name, apply type, free quantity in applying scheme screen should be verified
+4. scheme code, name, slab name should be verified in scheme aplied list
+5. Free product name and quantity should be verified</description>
+   <name>SCM_11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>041f263e-3c7b-42af-b4fc-ead79a2a4ed5</testCaseGuid>
+</TestCaseEntity>

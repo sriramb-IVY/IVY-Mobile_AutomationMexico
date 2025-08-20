@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme Name : DV_OTPR_1
+
+Scenario : First check scheme till summary screen and edit add one more non scheme product and verify schemes in apply and summary screen.</description>
+   <name>SCE_SH_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>496d8e96-b6c8-4c80-b640-ea900fcf6f2e</testCaseGuid>
+</TestCaseEntity>

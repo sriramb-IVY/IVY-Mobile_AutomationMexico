@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SY_01 : To verify that user can able to sync and verify the successful alert
+
+SY_02 : To verify that user can able to download and verify the successful alert</description>
+   <name>SY_01_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7836657-90b7-4a17-a92d-40531da02efc</testCaseGuid>
+</TestCaseEntity>

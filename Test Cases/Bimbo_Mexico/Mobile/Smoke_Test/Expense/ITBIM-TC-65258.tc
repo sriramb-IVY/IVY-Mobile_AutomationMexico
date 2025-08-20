@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify able to add expense using expense sheet</description>
+   <name>ITBIM-TC-65258</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d142741f-485e-4d8a-ab61-532f773c49d8</testCaseGuid>
+</TestCaseEntity>

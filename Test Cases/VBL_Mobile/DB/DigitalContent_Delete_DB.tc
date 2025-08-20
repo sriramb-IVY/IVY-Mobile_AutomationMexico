@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from AppData_Digital_Content_Tracking_Detail
+
+delete from AppData_Digital_Content_Tracking_Header</description>
+   <name>DigitalContent_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cd96af9-bdda-473d-8165-b81906d9286b</testCaseGuid>
+</TestCaseEntity>

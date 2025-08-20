@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Store_Menu_Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5292d15e-01e0-4cb5-9652-62764918fd8a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5770e572-6add-48c3-9cfc-89bc45baf1e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a69d9f3-bcbd-45fc-975b-f4da777ef207</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/Common').getValue('Menu', 1)</defaultValue>
+      <description></description>
+      <id>5770e572-6add-48c3-9cfc-89bc45baf1e7</id>
+      <masked>false</masked>
+      <name>MenuName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/Common').getValue('Menu', 1)</defaultValue>
+      <description></description>
+      <id>2a69d9f3-bcbd-45fc-975b-f4da777ef207</id>
+      <masked>false</masked>
+      <name>SubMenuName</name>
+   </variable>
+</TestCaseEntity>

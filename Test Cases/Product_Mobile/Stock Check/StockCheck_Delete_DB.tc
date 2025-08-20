@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>StockCheck_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e336957b-1743-4034-8304-bcd0389a391f</testCaseGuid>
+</TestCaseEntity>

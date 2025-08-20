@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get Scheme Apply Type in scheme master screen</description>
+   <name>SchemeMaster2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56d1293c-b314-4335-a586-f1b60c7898ab</testCaseGuid>
+</TestCaseEntity>

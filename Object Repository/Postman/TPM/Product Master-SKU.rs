@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Product Master-SKU</name>
+   <tag></tag>
+   <elementGuidId>f6644214-f826-467a-a78f-00b235adb468</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n  \&quot;Code\&quot;: \&quot;SKU036\&quot;,\r\n  \&quot;Name\&quot;: \&quot;SKU036\&quot;,\r\n  \&quot;ShortDescription\&quot;: \&quot;Birra Nobile 100ml\&quot;,\r\n  \&quot;DisplayName\&quot;: \&quot;Birra Nobile\&quot;,\r\n  \&quot;GlobalCode\&quot;: \&quot;BN_Product\&quot;,\r\n  \&quot;Level\&quot;: \&quot;SKU\&quot;,\r\n  \&quot;ParentLevel\&quot;: \&quot;PSKU\&quot;,\r\n  \&quot;ParentCode\&quot;: \&quot;BN\&quot;,\r\n  \&quot;BarCode\&quot;: 2278235873945,\r\n  \&quot;Weight\&quot;: 5000,\r\n  \&quot;BaseUOM\&quot;: \&quot;PIECE\&quot;,\r\n  \&quot;DefaultUOM\&quot;: \&quot;PIECE\&quot;,\r\n  \&quot;PrimarySalesUOM\&quot;: \&quot;PIECE\&quot;,\r\n  \&quot;Salable\&quot;: true,\r\n  \&quot;Returnable\&quot;: false,\r\n  \&quot;BOM\&quot;: true,\r\n  \&quot;Uoms\&quot;: [\r\n    {\r\n      \&quot;Name\&quot;: \&quot;PIECE\&quot;,\r\n      \&quot;MRP\&quot;: 60,\r\n      \&quot;DP\&quot;: 50,\r\n      \&quot;RP\&quot;: 55,\r\n      \&quot;ConversionQty\&quot;: 1,\r\n      \&quot;ConversionUOM\&quot;: \&quot;CASE\&quot;\r\n    },\r\n    {\r\n      \&quot;Name\&quot;: \&quot;CASE\&quot;,\r\n      \&quot;MRP\&quot;: 600,\r\n      \&quot;DP\&quot;: 500,\r\n      \&quot;RP\&quot;: 550,\r\n      \&quot;ConversionQty\&quot;: 10,\r\n      \&quot;ConversionUOM\&quot;: \&quot;PIECE\&quot;\r\n    }\r\n  ],\r\n  \&quot;Flex1\&quot;: \&quot;a\&quot;,\r\n  \&quot;Flex2\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex3\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex4\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex5\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex6\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex7\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex8\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex9\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex10\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex11\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex12\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex13\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex14\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex15\&quot;: \&quot;\&quot;,\r\n  \&quot;Status\&quot;: 1\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>194ed3aa-fe12-4b0d-b538-6fd7add0f5f6</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authentication</name>
+      <type>Main</type>
+      <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiODAzMGJjMi0wODQxLTQxY2MtYjEzNy0wM2M2N2MyNmZkMzUiLCJpYXQiOjE2ODIwMDI0MDUsImF1ZCI6Ikl2eUNQRyIsImlzcyI6Imh0dHA6Ly8xOTIuMTY4LjIuMTczIiwicHJvamVjdF9pZCI6Ijc1ZGE4MzI3LWU5ZjYtNDdkOS05NjliLTc1YWZkYmY1NjE1YSIsImdyYW50X3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjb21wb25lbnRfdHlwZSI6WyIxIiwiMSIsIjEiXSwidXNlcl9pZCI6IjEiLCJuYmYiOjE2ODIwMDI0MDUsImV4cCI6MTY4MjAxNjgwNX0.oLxdxPRZMZBl1g_bi1jqAx4d26x-clsJnHPmPMVnzq0</value>
+      <webElementGuid>d49da0c5-c21c-431e-92be-483b5c80de06</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Only-Validation</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4a72a72f-24d2-43f6-9949-779602041051</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.4.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${URL}/ProductHierarchySave/Single</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>6024ac82-fdce-4eae-93ba-2569cf0bf28c</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

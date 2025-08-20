@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_032->
+1)Create B9_MTR_MS_APPR_FP_Get(ANY) Apportionate 
+scheme and verify the Free product qty for slab1
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type:Quantity
+Scheme Process Type: MTR
+Scheme Get Type: Free Quantity
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: ANY
+Apply On: RP
+APPORITIONATE</description>
+   <name>RE_SCH_032</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30fa6be6-e419-4c72-ad32-b89e05d3eb32</testCaseGuid>
+</TestCaseEntity>

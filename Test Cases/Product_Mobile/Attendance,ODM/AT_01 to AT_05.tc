@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AT_01 : To verify whether the user can navigate correctly to the Attendance screen.
+AT_02 : To verify the plus icon functionality in the attendance screen
+AT_03 :To verify whether the user can continue the process when the user chooses any reason except WORKING.
+AT_04 : To verify whether the user can add an attendance without ending the existing attendance.
+AT_05 : To verify whether the user can process the application when the Attendance reason is choosen as Working.
+</description>
+   <name>AT_01 to AT_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c8c4b46-0890-40ed-b7f2-6021a8a20260</testCaseGuid>
+</TestCaseEntity>

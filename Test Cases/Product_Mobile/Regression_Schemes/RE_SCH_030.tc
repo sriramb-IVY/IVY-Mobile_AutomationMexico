@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_030->
+1)Create B8_MTR_DV_SS_SlabLimit scheme in scheme master 
+and verify the Total value, Free Product for slab1
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+3)Verify the Free product applied for maximum of second slab
+Scheme Type: Value
+Scheme Process Type: MTR
+Scheme Get Type: Discount Value
+Scheme Buy Logic: ONLY
+Scheme Get Logic: NA
+Group Buy Logic: ONLY
+Group Get Logic: NA
+Apply On: RP
+Product Exclusion: NO
+Batch:NO</description>
+   <name>RE_SCH_030</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6fc65ec4-93a7-4f2e-9ecf-b373cf1b40a0</testCaseGuid>
+</TestCaseEntity>

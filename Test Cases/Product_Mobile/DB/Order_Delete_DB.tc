@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from appdata_order_detail
+
+delete from appdata_order_scheme_detail
+
+delete from appdata_order_tax_detail
+
+delete from appdata_order_discount_detail
+
+delete from AppData_Order_Scheme_Detail_Credit
+
+delete from appdata_order_header</description>
+   <name>Order_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64a09f68-e3d1-4230-b670-7287c1e2bb96</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_036->
+1)Create B9_MTR_APRT_FP_Value  scheme in scheme master and 
+verify the free product name and quantity for slab1, slab2 and 
+double time of slab2 
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type: Sales Value
+Scheme Process Type: Multiple Time For Remaining
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic : ONLY
+Group Get Logic: ONLY
+Apply On: RP
+Apportionate Free Sku : Yes
+Slabs : Multi slabs</description>
+   <name>RE_SCH_036</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24713060-07ce-40ad-8dd1-647dc118b35b</testCaseGuid>
+</TestCaseEntity>

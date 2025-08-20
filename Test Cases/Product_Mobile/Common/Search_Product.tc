@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select search Icon for entering sku</description>
+   <name>Search_Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c75bb6c-d25c-4663-bdfd-39aa77ecbcd2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec9b26df-0cc2-4a36-ac39-48fa3089294c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec9b26df-0cc2-4a36-ac39-48fa3089294c</id>
+      <masked>false</masked>
+      <name>ProductName</name>
+   </variable>
+</TestCaseEntity>

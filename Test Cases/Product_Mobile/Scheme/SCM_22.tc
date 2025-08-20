@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Scheme mapped channel and retailer mapped channel should be matched in division login
+2. Scheme mapped attribute and retailer mapped attribute should be matched in division login
+3. Scheme name, apply type, discount percentage in applying scheme screen should be verified
+4. Verify the scheme discount amount and Verify the scheme code, name, slab name in scheme applied list
+5. Discount percentage calculation should be verified
+discount percentage = ((totalvalue of sku product * scheme percentage)/100)
+dicount percentage applied should be matched with the given formula</description>
+   <name>SCM_22</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf96f5d2-0821-4c52-8541-d4b0ee551baa</testCaseGuid>
+</TestCaseEntity>

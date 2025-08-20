@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Scheme mapped location and retailer mapped location should be matched in division login
+2. Scheme mapped channel and retailer mapped channel should be matched in division login
+3. Scheme mapped attribute and retailer mapped attribute should be matched in division login
+4. Scheme mapped distributor and retailer mapped distributor should be matched in division login
+5. Scheme name, apply type, free quantity in applying scheme screen should be verified
+6. scheme code, name, slab name should be verified in scheme aplied list
+7. Free product name and quantity should be verified</description>
+   <name>SCM_32</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc8bf889-4212-4cf3-8dc3-67424638864e</testCaseGuid>
+</TestCaseEntity>

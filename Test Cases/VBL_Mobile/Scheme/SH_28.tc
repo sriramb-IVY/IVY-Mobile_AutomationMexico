@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_28 : Create FP_FS_MS_Automation_Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ANY
+Group Get Logic : ONLY
+Scheme get type: Free Product 
+Apply On : MRP
+and map the scheme to Retailer (RJRetailer016, RJRetailer01_FDD, RJRetailer02_Fixed scheme, RJRetailer04_Variable scheme)</description>
+   <name>SH_28</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b449e987-0b03-4c31-8fc6-4813f84f8d16</testCaseGuid>
+</TestCaseEntity>

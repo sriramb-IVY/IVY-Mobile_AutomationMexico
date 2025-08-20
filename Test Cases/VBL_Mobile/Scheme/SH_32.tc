@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_32 : Create DV_VS_MS_Automation_Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : 
+Group Buy Logic : ANY
+Group Get Logic : 
+Scheme get type: Discount Value
+Apply On : RP
+and map the scheme to Retailer (RJRetailer016, RJRetailer01_FDD, RJRetailer02_Fixed scheme, RJRetailer04_Variable scheme)</description>
+   <name>SH_32</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4f956b5-1285-4082-a4b8-9d6085905290</testCaseGuid>
+</TestCaseEntity>

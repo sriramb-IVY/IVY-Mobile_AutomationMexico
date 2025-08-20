@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "C1AC0F29FD9191A4C1CEC1DED7476284",
+  "keywordClasses": [
+    {
+      "name": "credit_management.Period_Date_Change_1",
+      "keywordMethods": [
+        {
+          "name": "CP_date_change",
+          "parameters": [
+            {
+              "name": "retailer_Code",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

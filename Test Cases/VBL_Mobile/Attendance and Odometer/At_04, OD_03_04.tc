@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AT_04 : To verify whether status field changed into complete while click end button in the attendance screen.
+
+AT_05 : The user must verify attendance reason, start time, end time  should be insert in Database
+OD_03 : To verify that End trip field is enable
+
+OD_04 : To verify that distance coverage
+
+OD_05 : To verify whether Entered start trip and end trip value in mobiile application  is reflected into Database</description>
+   <name>At_04, OD_03_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02f50c54-8761-4b07-94ac-4cc4be06d7ad</testCaseGuid>
+</TestCaseEntity>

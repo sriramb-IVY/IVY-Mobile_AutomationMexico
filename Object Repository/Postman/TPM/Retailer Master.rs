@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Retailer Master</name>
+   <tag></tag>
+   <elementGuidId>55a1ca7b-2540-4977-a781-7c7cec5a1968</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n  \&quot;RetailerCode\&quot;: \&quot;RTR_HVN_SubD_141\&quot;,\r\n  \&quot;RetailerName\&quot;: \&quot;INT RTR Sample141\&quot;,\r\n  \&quot;ChannelCode\&quot;: \&quot;SCHL03\&quot;,\r\n  \&quot;LocationCode\&quot;: \&quot;000014\&quot;,\r\n  \&quot;DrugLicenseNumber2\&quot;: \&quot;23\&quot;,\r\n  \&quot;IsSubD\&quot;: \&quot;false\&quot;,\r\n  \&quot;AttributeIds\&quot;: [\&quot;Test\&quot;],\r\n  \&quot;Flex1\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex2\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex3\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex4\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex5\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex6\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex7\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex8\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex9\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex10\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex11\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex12\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex13\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex14\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex15\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex16\&quot;: \&quot;\&quot;,\r\n  \&quot;Flex17\&quot;: \&quot;\&quot;,\r\n  \&quot;Status\&quot;: 1,\r\n  \&quot;IsActive\&quot;: true,\r\n  \&quot;Address\&quot;: [\r\n    {\r\n      \&quot;AddressType\&quot;: \&quot;PERMANENT\&quot;,\r\n      \&quot;Address1\&quot;: \&quot;Dist 005 Address\&quot;,\r\n      \&quot;Address2\&quot;: \&quot;\&quot;,\r\n      \&quot;Address3\&quot;: \&quot;\&quot;,\r\n      \&quot;State \&quot;: \&quot;\&quot;,\r\n      \&quot;Longitude\&quot;: \&quot;\&quot;,\r\n      \&quot;City\&quot;: \&quot;\&quot;,\r\n      \&quot;District\&quot;: \&quot;\&quot;,\r\n      \&quot;Email\&quot;: \&quot;\&quot;,\r\n      \&quot;Fax\&quot;: \&quot;\&quot;,\r\n      \&quot;Phone\&quot;: \&quot;\&quot;,\r\n      \&quot;Landmark\&quot;: \&quot;\&quot;,\r\n      \&quot;Lattitude\&quot;: \&quot;\&quot;,\r\n      \&quot;Pincode\&quot;: 1245,\r\n      \&quot;Region\&quot;: \&quot;south\&quot;,\r\n      \&quot;Country\&quot;: \&quot;India\&quot;,\r\n      \&quot;Flex1\&quot;: \&quot;\&quot;,\r\n      \&quot;Flex2\&quot;: \&quot;\&quot;,\r\n      \&quot;Flex3\&quot;: \&quot;\&quot;,\r\n      \&quot;IsPrimary \&quot;: true\r\n    }\r\n  ],\r\n  \&quot;Contacts\&quot;: [\r\n    {\r\n      \&quot;FirstName\&quot;: \&quot;contact1\&quot;,\r\n      \&quot;MiddleName\&quot;: \&quot;jency\&quot;,\r\n      \&quot;LastName\&quot;: \&quot;\&quot;,\r\n      \&quot;Gender\&quot;: \&quot;Female\&quot;,\r\n      \&quot;DOB\&quot;: \&quot;\&quot;,\r\n      \&quot;AnniversaryDate\&quot;: \&quot;\&quot;,\r\n      \&quot;DND\&quot;: \&quot;\&quot;,\r\n      \&quot;PhoneNo\&quot;: \&quot;123\&quot;,\r\n      \&quot;Flex1\&quot;: \&quot;\&quot;,\r\n      \&quot;IsPrimary\&quot;: true\r\n    }\r\n  ]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>24d2e956-27d9-4b9f-a56e-96595b5b6a07</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authentication</name>
+      <type>Main</type>
+      <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwYTk5Njg1ZC1iNzg0LTQ5ZjYtYTk3Ny05MDQyZGZmMjFkZWEiLCJpYXQiOjE2ODQyMzc3NDgsImF1ZCI6Ikl2eUNQRyIsImlzcyI6Imh0dHA6Ly8xOTIuMTY4LjIuMTczIiwicHJvamVjdF9pZCI6Ijc1ZGE4MzI3LWU5ZjYtNDdkOS05NjliLTc1YWZkYmY1NjE1YSIsImdyYW50X3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjb21wb25lbnRfdHlwZSI6WyIxIiwiMSIsIjEiXSwidXNlcl9pZCI6IjEiLCJuYmYiOjE2ODQyMzc3NDgsImV4cCI6MTY4NDI1MjE0OH0.eLloc1TLWfuEHM-82Tr3RtGh2oWuTYiIYFsrCMiUh2c</value>
+      <webElementGuid>edd25ba2-bd81-4363-b4c2-a1ddc1845768</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Auth_Secret</name>
+      <type>Main</type>
+      <value>Y2F0Y2hlciUyMHdvbmclMjBsb3ZlJTIwLm5ldA==</value>
+      <webElementGuid>14ffa143-112d-472a-ae62-7cbed00e358d</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.4.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${URL}/RetailerSave/Single</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>1bde4931-0bab-40c1-878a-18e7593c09d3</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

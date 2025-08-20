@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_006->
+1)Create OTP_SS_Free_Qty(In And Cond.) scheme in scheme master &amp;
+Verify the Total value,Total amount, free product name, free product quantity
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+ actual quantity.
+Scheme Type: Quantity
+Scheme Process Type: One Time Process
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic1: ONLY
+Group Get Logic1: AND
+Apply On: RP
+Slab: Single Slab</description>
+   <name>RE_SCH_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dab146bf-7158-4114-a19d-761ecaae009e</testCaseGuid>
+</TestCaseEntity>

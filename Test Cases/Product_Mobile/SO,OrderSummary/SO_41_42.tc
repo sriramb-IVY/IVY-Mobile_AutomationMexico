@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SO_41 ; To verify that given data from the moible should be refelected in grid of sales order view screen
+SO_42 : To verify whether the Given data from the mobile device is inserted into appdata_order_detail</description>
+   <name>SO_41_42</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43204640-1285-4dcf-beb9-42c8f47ceceb</testCaseGuid>
+</TestCaseEntity>

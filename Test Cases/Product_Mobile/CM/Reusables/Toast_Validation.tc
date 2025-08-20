@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Toast_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97fcb948-a8f2-488f-bb2a-d6d6f118b861</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f7e20ef-4ba1-4d08-b054-aa8da0946029</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b342f8cf-a3d0-49e1-897a-f3f28a6b173c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Mobile Input Data/CreditManagement').getValue('', 1)</defaultValue>
+      <description></description>
+      <id>9f7e20ef-4ba1-4d08-b054-aa8da0946029</id>
+      <masked>false</masked>
+      <name>Expecting_Toast_Text</name>
+   </variable>
+</TestCaseEntity>

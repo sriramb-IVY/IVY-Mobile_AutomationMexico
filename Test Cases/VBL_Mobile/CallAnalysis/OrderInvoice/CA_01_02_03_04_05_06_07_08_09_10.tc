@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_01 To verify whether &quot;select reason for no order&quot; field should be displayed in call analysis screen
+
+CA_02 To verify Total lines field in call analysis screen.
+
+CA_03 To verify Sales value field in call analysis screen.
+
+CA_04 To verify Total value field in call analysis screen.
+
+CA_05 To verify whether get the no.of ordered MSL product count from order&amp;invoice screen should be displayed in Call analysis screen
+
+CA_06 To verify whether Total no. of MSL product count from order&amp;invoice screen should displayed in call analysis screen
+
+CA_07 To verify whether MSL precentage should be displayed in call analysis screen
+
+CA_08 To verify whether get the no.of ordered Focubrand product count from order&amp;invoice screen should be displayed in Call analysis screen
+
+CA_09 To verify whether Total no. of Focubrand product count from order&amp;invoice screen should displayed in call analysis screen
+
+CA_10 To verify whether Focubrand precentage should be displayed in call analysis screen</description>
+   <name>CA_01_02_03_04_05_06_07_08_09_10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f6701e3-7783-4439-b97a-9da4477d5b3b</testCaseGuid>
+</TestCaseEntity>

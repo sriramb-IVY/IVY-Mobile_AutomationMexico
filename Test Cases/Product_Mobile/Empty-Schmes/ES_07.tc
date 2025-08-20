@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme : Empties_Scheme_MTS_DV</description>
+   <name>ES_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8198f42-43da-4ccd-a3d5-0caaaab2649f</testCaseGuid>
+</TestCaseEntity>

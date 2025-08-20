@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To odometer screen is loading after clicking on odometer option.&#xd;
+1. login as van/Night seller  with credential
+&#xd;
+2. Click on options and select the start of the day menu.
+&#xd;
+3. Click on odometer menu and verify.</description>
+   <name>ITBIM-TC-65237</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b40dcf9-caae-4fab-bc3c-522b246521e7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get Scheme, retailer atribute and product MRP details</description>
+   <name>WebPart_SchemeProduct_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbd88f27-43a2-41c6-848d-56d66e9a2b23</testCaseGuid>
+</TestCaseEntity>

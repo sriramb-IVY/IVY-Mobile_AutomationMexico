@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from AppData_Attendance_Time_Detail</description>
+   <name>Attendance_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b359e13-3d72-4eb7-9558-f4352dd2b928</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_021->
+1)Create B6_MTS_Value_S2_DV_Brand scheme in scheme master and verify the discounr value for slab1 and slab2
+2) Scheme discount value for slab1 should not applied beyond the slab max limit
+2)To verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type: Sales Value
+Scheme Process Type: Multiple Slab
+Scheme Get Type: Discount Value
+Scheme Buy Logic: ONLY
+Scheme Get Logic: -
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab Max Limit : Yes (for slab1 only)
+Slabs : Multislab</description>
+   <name>RE_SCH_021_new</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5919fda-eab6-4e9a-97fc-26a4e3e7623e</testCaseGuid>
+</TestCaseEntity>

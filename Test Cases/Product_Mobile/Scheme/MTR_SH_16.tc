@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme process type: Multiple Time For Remaining
+Scheme get type: Discount value
+Scheme Buy logic: ONLY
+Buy group logic: ONLY
+Create scheme with the above details in scheme master and verify the scheme is applied on sales order create screen by entering the minimum quantity of slab1</description>
+   <name>MTR_SH_16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b205fa5-0f2e-4f3d-b834-7d9d7d9582cf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobile Date Picker-DisableValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebbb1ace-2443-45b6-8463-611a2e7c7a69</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7cd3549b-21bd-496b-bcd0-ca89d9e8e53c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7cd3549b-21bd-496b-bcd0-ca89d9e8e53c</id>
+      <masked>false</masked>
+      <name>DateCount</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invoice_Amt_Partical_Collection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b59a5fa-5a51-45ee-a6d2-222933215f65</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e18d15e1-310f-4258-ac9c-6edefd3ce1cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e18d15e1-310f-4258-ac9c-6edefd3ce1cc</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

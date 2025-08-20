@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_36 : To verify that the collected cash type value is accurately displayed on the denomination screen.
+CA_37: To verify whether TotalEnteredValue field is at zero prior to entering the currency quantity on the denomination screen.
+CA_38 : To verify that when the user attempts to tap the save button, a toast message is displayed indicating that &quot;Total amount not match with you denomination count amount&quot;.
+CA_39 : To verify that the user is able to enter the currency quantity into the respective field.
+CA_40 : To verify that amount field value is calculated according to the formula: Value of Currency * Quantity = Amount.
+CA_41 : To verify that the user is not allowed to save if there are pending currency quantities in the TotalEnteredValue field.
+CA_42 : To verify that the user can save the denomination and receive a toast message indicating &quot;Saved Successfully&quot;. </description>
+   <name>CA_36 to CA_42</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e7cba51-bbc2-4725-9197-1ddf5ec47246</testCaseGuid>
+</TestCaseEntity>

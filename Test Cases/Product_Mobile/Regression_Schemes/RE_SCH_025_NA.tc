@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_025->
+1)Create scheme in scheme master and verify the Total value,
+ Free Product for slab1
+2)To verify whether the scheme has not been applied if a 
+lesser quantity is entered than the actual buy quantity.
+3)Verify the Free product not applied for another batch
+Scheme Type: Quantity
+Scheme Process Type: MTS
+Scheme Get Type: Free product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: ONLY
+Apply On: RP
+Product Exclusion: NO
+Batch:Yes</description>
+   <name>RE_SCH_025_NA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>861e830a-e410-427d-8424-b9ae3097579d</testCaseGuid>
+</TestCaseEntity>

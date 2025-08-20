@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_36 : Create FP_VS_OTP_Automation_Scheme_CMB
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ANY
+Group Get Logic : ONLY
+Scheme get type: Free Product 
+Apply On : RP
+Scheme Type: Additional_Dis_Amt + Apportionate + Retailer Attribute
+and map the scheme to Retailer (RJRET013 -  RJRetailer04_Variable scheme)</description>
+   <name>SH_36</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbd80cce-ab0f-420f-8fe9-327255ac554d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify that user can able to click the deviation menu button
+
+To verify that the retailer can able to add new store for the current date
+To verify that user can able to able to create the deviate plan only for the currect date
+To verify that user can able to select reason for the current date</description>
+   <name>DEV_01_02_03_04_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dde7d8f3-f0bf-4b8e-a345-bb97ece7d5a8</testCaseGuid>
+</TestCaseEntity>

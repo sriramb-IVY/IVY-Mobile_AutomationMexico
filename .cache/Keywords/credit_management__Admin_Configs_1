@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "3A194EFCDFF89138BA6B96F778C5A5E4",
+  "keywordClasses": [
+    {
+      "name": "credit_management.Admin_Configs_1",
+      "keywordMethods": [
+        {
+          "name": "Set_Configs",
+          "parameters": [
+            {
+              "name": "Config",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "alert",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

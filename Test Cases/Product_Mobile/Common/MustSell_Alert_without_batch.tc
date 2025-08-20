@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MustSell_Alert_without_batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e7d42c-36be-4ea0-a87b-060aa3ef4f14</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TP_01 : To validate view functionality in tradecoverage screen
+TP_02 : To verify user able to search the store by store name 
+</description>
+   <name>TP_01_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab6cde26-1222-44a6-8e91-e42c5122ed36</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validation for Sales Return replacement detail DB</description>
+   <name>SRR_14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5986f1df-0141-4e4f-9e66-843188677216</testCaseGuid>
+</TestCaseEntity>

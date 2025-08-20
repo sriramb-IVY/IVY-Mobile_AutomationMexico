@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify Expense sheet screen is getting opened when expense menu is clicked</description>
+   <name>ITBIM-TC-65257</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>032a81ae-8600-465c-b05c-db1fdf58732b</testCaseGuid>
+</TestCaseEntity>

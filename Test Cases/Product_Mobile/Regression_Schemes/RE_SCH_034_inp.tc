@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_034->
+1)Create B9_MTR_FP_MS_ADDisc scheme in scheme master and 
+verify the free product name,quantity and discount value for slab1, slab2
+and double time of slab2
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type: Quantity
+Scheme Process Type: Multiple Time For Remaining
+Scheme Get Type: Free Product
+Scheme Buy Logic: AND
+Scheme Get Logic: ONLY
+Group Buy Logic 1 : ONLY
+Group Buy Logic 2 : AND
+Group Get Logic: ONLY
+Apply On: RP
+Additional Discount : Yes
+Slabs : Multi slabs</description>
+   <name>RE_SCH_034_inp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>213ef698-bd11-4a38-972f-23a9bc65be0c</testCaseGuid>
+</TestCaseEntity>

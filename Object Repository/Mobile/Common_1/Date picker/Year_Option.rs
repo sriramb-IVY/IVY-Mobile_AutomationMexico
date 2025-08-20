@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Year_Option</name>
+   <tag></tag>
+   <elementGuidId>1d3f9b17-cb0d-4b9e-9085-ab62e680ec67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//option[(text() = '${GlobalVariable.sYear}' or . = '${GlobalVariable.sYear}') and @ref_element = 'Object Repository/VBL/Reusables/Frame/iframe_Logout_iContent']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>1dd85ce2-995a-442d-92ff-facdaaef1b8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>2021</value>
+      <webElementGuid>b21c00d7-211d-41c6-87f6-d4fd00296254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${GlobalVariable.sYear}</value>
+      <webElementGuid>5e358deb-baa0-4ce0-818e-750dbab7679e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web Part/Re-usable/Frames/iframe_Logout_iContent</value>
+      <webElementGuid>802603ce-e6fe-43d4-a0da-d47ed3a0e023</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

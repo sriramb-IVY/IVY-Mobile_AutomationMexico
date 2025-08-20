@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme : Empties_Scheme_MTS_FP_WO</description>
+   <name>ES_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6d07e0b-66b2-4dc6-ba79-95c84414cb0b</testCaseGuid>
+</TestCaseEntity>

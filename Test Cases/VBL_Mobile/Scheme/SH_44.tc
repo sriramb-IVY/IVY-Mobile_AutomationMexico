@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Automation_Attribute_Sch2
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : Any
+Group Get Logic : ONLY
+Scheme get type: Free Product 
+Scheme Type : Account Group Mapping
+Apply On : RP
+Scheme Process Type : One Time Process
+Mapping : Retailer Attribute
+and map the scheme to Retailer Attribute.</description>
+   <name>SH_44</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>635d9805-9dcb-42f7-a07a-b1f0444c33d5</testCaseGuid>
+</TestCaseEntity>

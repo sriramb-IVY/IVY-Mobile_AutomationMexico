@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_031->
+1)Create B9_MTR_FP_ADDIS_SS(Variant) free product scheme 
+with additional discount in scheme master and verifyTotal value,
+Total amount, free product name, free product quantity
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Process Type: One Time Process
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic1: ANY
+Group Get Logic1:ONLY
+ADDITIONAL DISCOUNT</description>
+   <name>RE_SCH_031_new</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c31de4e1-b06d-43dd-87fa-e925d3eeb4a0</testCaseGuid>
+</TestCaseEntity>

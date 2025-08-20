@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_012->
+1)Create B4_FP_OTP_Slab_1_Apportinate scheme in scheme master &amp;
+Verify the scheme name, slabs, total value, total amount, scheme discount amount, free products 
+and free product quantity
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the 
+actual buy quantity.
+Scheme Type: Quantity
+Scheme Process Type: OTP
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Group Buy Logic: ANY
+Group Get Logic: ANY
+Apply On: RP
+Slab: Single Slab</description>
+   <name>RE_SCH_012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c022407c-55f3-49d4-8c2a-a0119aaa064d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_017->
+1)Create B5_OTP_DP_Slab_1_Get_EXCL scheme with an Excluded product
+ in scheme master
+2)To verify the scheme name, slabs, total value, total amount, 
+and scheme discount amount
+3)To verify whether the scheme has been applied for an excluded
+ product in the Sales Invoice Create screen.
+4)To verify whether the scheme has not been applied if a lesser 
+quantity is entered than the actual buy quantity.
+Scheme Type: Quantity
+Scheme Process Type: OTP
+Scheme Get Type: Discount Percentage
+Scheme Buy Logic: ONLY
+Group Buy Logic: ANY
+Group Get Logic:-
+Apply On: RP
+Slabs: Single slab </description>
+   <name>RE_SCH_017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>964edd6d-e91d-438f-9d6c-0ddd47b748c8</testCaseGuid>
+</TestCaseEntity>

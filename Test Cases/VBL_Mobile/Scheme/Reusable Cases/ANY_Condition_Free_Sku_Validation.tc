@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ANY_Condition_Free_Sku_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d166292-b140-48fb-a69e-d2a1a0c26ed8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>328cf389-1b0e-42ea-951b-e1d15834d30e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d194bb1-815d-43e3-a138-d611adbbceed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0799b1e-406e-4cb3-91af-47c3c1d3d2e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47d29b80-bdee-40a6-b15c-0f4079be030b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null).getValue('FreeProduct_Slab1', Scheme_Index)</defaultValue>
+      <description></description>
+      <id>328cf389-1b0e-42ea-951b-e1d15834d30e</id>
+      <masked>false</masked>
+      <name>Scheme_Free_SKU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue('FreeProduct02_Slab1', Scheme_Index)</defaultValue>
+      <description></description>
+      <id>8d194bb1-815d-43e3-a138-d611adbbceed</id>
+      <masked>false</masked>
+      <name>Scheme_Free_SKU02</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue('FreeProduct_Case_Slab1', Scheme_Index)</defaultValue>
+      <description></description>
+      <id>a0799b1e-406e-4cb3-91af-47c3c1d3d2e4</id>
+      <masked>false</masked>
+      <name>FreeSKU_MinQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue('FreeProduct_Case_Slab1_MAX', Scheme_Index)</defaultValue>
+      <description></description>
+      <id>47d29b80-bdee-40a6-b15c-0f4079be030b</id>
+      <masked>false</masked>
+      <name>FreeSKU_MaxQty</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Credit Note For Mobile Collection Screen</description>
+   <name>CT_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b1022a9-a08b-4d0e-abc2-f8207426ba4c</testCaseGuid>
+</TestCaseEntity>

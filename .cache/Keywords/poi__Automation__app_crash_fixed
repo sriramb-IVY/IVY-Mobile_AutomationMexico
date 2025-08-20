@@ -1,0 +1,45 @@
+{
+  "keywordFileContentHash": "5213E0EFE69A687FD46D246FBD96DAEF",
+  "keywordClasses": [
+    {
+      "name": "poi.Automation.app_crash_fixed",
+      "keywordMethods": [
+        {
+          "name": "killNodejs",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "zoomIn",
+          "parameters": [
+            {
+              "name": "zoomLevel",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "zoomOut",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "zoomIn",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

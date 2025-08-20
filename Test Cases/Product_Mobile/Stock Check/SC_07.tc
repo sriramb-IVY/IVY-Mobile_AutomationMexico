@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SC_07 : To verify whether the Given data from the mobile device is 
+inserted into Appdata_retailer_stock_header,
+Appdata_retailer_stock_detail</description>
+   <name>SC_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c138b83-0efc-4b7d-8b22-fd6e9ecacf4d</testCaseGuid>
+</TestCaseEntity>

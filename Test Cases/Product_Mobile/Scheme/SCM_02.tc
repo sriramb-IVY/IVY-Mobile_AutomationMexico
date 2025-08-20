@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme should not be applied in the invoice, if scheme mapped location and channel does not matched with retailer mapped location and channel</description>
+   <name>SCM_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2016800c-b234-41c5-9056-e72a5ca46460</testCaseGuid>
+</TestCaseEntity>

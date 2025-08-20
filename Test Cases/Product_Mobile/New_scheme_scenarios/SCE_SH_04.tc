@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme Name : DP_OTPR_2
+
+Scenario: Buy ANY Logic(product wise)
+In scheme first buy one product and check scheme applying correctly,then changed the product because of ANY condition and check scheme apply screen and scheme summary screen.
+
+
+</description>
+   <name>SCE_SH_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8ab953f-3e95-4b1c-b88f-11c07dd823d4</testCaseGuid>
+</TestCaseEntity>

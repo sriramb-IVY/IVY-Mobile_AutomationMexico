@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exp_001	To verify whether the user navigates to the Expense screen and it has all the necessary fields.
+Exp_002	To verify the presence and functionality of the Calender icon.
+Exp_003	To verify whether the selected date visibles in the Start Date field.
+Exp_004	To verify the Done button functionality without entering the mandatory Expense details.
+Exp_005	To verify the different expense types while tapping the Expense Type dropdown.
+Exp_006	To verify the Amount field functionality.
+Exp_007	To verify whether the entered amount clears if the user chooses another expense type.
+Exp_008	To verify the Remarks field functionality.
+Exp_009	To verify the Capture Proof field functionality.
+Exp_010	To verify the Clear button functionality.
+Exp_011	To verify the Done button functionality after entering the required expense details.
+Exp_012	To verify the capture proof  functionality in the Grid.
+Exp_013	To verify whether the captured proof can be deleted from the Image Proof dialog box.
+Exp_014	To verify whether the Total amount is displayed correctly according the expenses.</description>
+   <name>Exp_001 to Exp_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f85cb355-30b7-4e56-bdf8-19a782f06366</testCaseGuid>
+</TestCaseEntity>

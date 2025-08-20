@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DEV_06 To Verify that reason functionaly is mandatory 
+DEV_07 To verify that user can able to  deviate the visit planned for the current date</description>
+   <name>DEV_06_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6abf4984-0bd6-457d-8805-b561f3a8a540</testCaseGuid>
+</TestCaseEntity>

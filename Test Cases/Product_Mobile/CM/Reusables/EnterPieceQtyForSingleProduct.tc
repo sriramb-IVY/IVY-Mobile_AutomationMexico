@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EnterPieceQtyForSingleProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70a7cf67-8dac-4672-89fa-80ae2a0ab0e6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5853ed31-f5fc-42c8-ae7f-0eb564468847</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a28da27-5dde-46f1-9836-910069526b98</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5853ed31-f5fc-42c8-ae7f-0eb564468847</id>
+      <masked>false</masked>
+      <name>ProductName</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>0a28da27-5dde-46f1-9836-910069526b98</id>
+      <masked>false</masked>
+      <name>PieceQty</name>
+   </variable>
+</TestCaseEntity>

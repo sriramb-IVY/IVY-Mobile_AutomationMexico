@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Empty Return screen Validations</description>
+   <name>ER_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33815a24-139d-494d-b601-1c3c389c0f35</testCaseGuid>
+</TestCaseEntity>

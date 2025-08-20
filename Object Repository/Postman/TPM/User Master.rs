@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>User Master</name>
+   <tag></tag>
+   <elementGuidId>bb93798e-a2c1-4c17-97a4-6c040593ac3f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n \r\n  \&quot;UserName\&quot;: \&quot;USER 11081\&quot;,\r\n  \&quot;PositionCode\&quot;: \&quot;POS 11077\&quot;,\r\n  \&quot;RoleName\&quot;: \&quot;ASMA\&quot;,\r\n  \&quot;FirstName\&quot;: \&quot;USER 11081\&quot;,\r\n  \&quot;MiddleName\&quot;: \&quot;\&quot;,\r\n  \&quot;LastName\&quot;: \&quot;\&quot;,\r\n  \&quot;DOB\&quot;: \&quot;1998-06-29\&quot;,\r\n  \&quot;DOJ\&quot;: \&quot;2015-07-04\&quot;,\r\n  \&quot;EmailId\&quot;: \&quot;test@test.com\&quot;,\r\n  \&quot;MobileNo\&quot;: \&quot;9080805705\&quot;,\r\n  \&quot;Gender\&quot;: \&quot;Male\&quot;,\r\n  \&quot;Status\&quot;: 1,\r\n  \&quot;Flex1\&quot;: \&quot;TEST ABC\&quot;,\r\n  \&quot;Flex2\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex3\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex4\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex5\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex6\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex7\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex8\&quot;: \&quot; \&quot;,\r\n  \&quot;Flex9\&quot;: \&quot; \&quot;,\r\n  \&quot;Contacts\&quot;: [\r\n    {\r\n      \&quot;Address1\&quot;: \&quot;Dubai main Street\&quot;,\r\n      \&quot;Address2\&quot;: \&quot;Dubai Cross Street\&quot;,\r\n      \&quot;City\&quot;: \&quot;\&quot;,\r\n      \&quot;State\&quot;: \&quot;\&quot;,\r\n      \&quot;Country\&quot;: \&quot;\&quot;,\r\n      \&quot;ContactType\&quot;: \&quot;TM\&quot;,\r\n      \&quot;Isprimary\&quot;: true,\r\n      \&quot;Lattitude\&quot;: \&quot;\&quot;,\r\n      \&quot;Longitude\&quot;: \&quot;\&quot;,\r\n      \&quot;District\&quot;: \&quot;\&quot;,\r\n      \&quot;Landmark\&quot;: \&quot;\&quot;,\r\n      \&quot;Pincode\&quot;: \&quot;\&quot;,\r\n      \&quot;DoorNo\&quot;: \&quot;\&quot;,\r\n      \&quot;OldDoorNo\&quot;: \&quot;\&quot;,\r\n      \&quot;Town\&quot;: \&quot;\&quot;,\r\n      \&quot;Flex1\&quot;: \&quot;TEST ABC \&quot;,\r\n      \&quot;Flex2\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex3\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex4\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex5\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex6\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex7\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex8\&quot;: \&quot; \&quot;,\r\n      \&quot;Flex9\&quot;: \&quot; \&quot;\r\n    }\r\n  ]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>3d89105c-97d1-46fd-aa1b-9b9b1c3663a1</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authentication</name>
+      <type>Main</type>
+      <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4M2U3MzFlMi05OWZlLTQyZjEtOTgxYi1jOWI3MjIyYzYxNzciLCJpYXQiOjE2Nzk5MjM5NjYsImF1ZCI6Ikl2eUNQRyIsImlzcyI6Imh0dHA6Ly8xOTIuMTY4LjIuMTczIiwicHJvamVjdF9pZCI6Ijc1ZGE4MzI3LWU5ZjYtNDdkOS05NjliLTc1YWZkYmY1NjE1YSIsImdyYW50X3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjb21wb25lbnRfdHlwZSI6WyIxIiwiMSIsIjEiXSwidXNlcl9pZCI6IjEiLCJuYmYiOjE2Nzk5MjM5NjYsImV4cCI6MTY3OTkzODM2Nn0.je1WJHdVZ_5wLDltfe0Q8UzELlKe2k2nXLYbZrh6hJs</value>
+      <webElementGuid>17eae704-fe78-4bc3-a1e6-03ce74cac02d</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Only-Validation</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>04b90b0c-b2a6-46a3-b9be-a5395938bf4b</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.4.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${URL}/UserSave/Single</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>63038154-143d-483f-9259-d9b0e3a5aa7a</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme process type: Multiple Slab with Remaining Percentage
+Scheme get type: Discount value
+Scheme Buy logic: ONLY
+Buy group logic: ONLY
+Create scheme with the above details in scheme master and verify the scheme is applied on sales order create screen by entering the  slab2 buy quantity</description>
+   <name>MTR_SH_25</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebdf0c47-36ea-4264-bf02-59b85313518f</testCaseGuid>
+</TestCaseEntity>

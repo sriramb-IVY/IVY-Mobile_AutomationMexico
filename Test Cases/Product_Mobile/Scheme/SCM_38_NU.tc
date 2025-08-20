@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme should not be applied in the invoice, if scheme mapped attribute does not matched with retailer mapped attribute</description>
+   <name>SCM_38_NU</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4752880e-6226-407e-bea8-40e7b39da1d0</testCaseGuid>
+</TestCaseEntity>

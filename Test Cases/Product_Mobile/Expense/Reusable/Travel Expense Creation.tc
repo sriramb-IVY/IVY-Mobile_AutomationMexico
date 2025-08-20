@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exp_001: To verify whether the user navigates to the Expense screen and it has all the necessary fields.
+</description>
+   <name>Travel Expense Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>298ea17e-a46a-461b-8bca-d0bbf274a6ab</testCaseGuid>
+</TestCaseEntity>

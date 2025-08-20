@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_012_CT_1->Verify whether the scheme has not been applied if a lesser quantity is entered than the 
+actual buy quantity</description>
+   <name>RE_SCH_012_CT_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e16753ca-36b7-4bf6-b62e-81bae4312f44</testCaseGuid>
+</TestCaseEntity>

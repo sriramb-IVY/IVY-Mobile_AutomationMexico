@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_01 : Create DP_OTPR_Automation_Scheme1
+Scheme Buy Logic : ONLY
+Group Buy Logic : ANY
+Scheme get type: Discount percentage 
+Slab : Slab_1 and Slab_2
+and map the scheme to retailer(ZZZ Store).</description>
+   <name>SH_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3cf5ed0-a09e-447c-894d-8efcf986f966</testCaseGuid>
+</TestCaseEntity>

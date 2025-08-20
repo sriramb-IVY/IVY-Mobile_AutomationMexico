@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme process type: Multiple Time For Remaining
+Scheme get type: Free Product
+Scheme Buy logic: ONLY
+Scheme Get Logic: ONLY
+Buy group logic: ONLY
+Create scheme with the above details in scheme master and verify the scheme is applied on sales order create screen by entering the double times of slab2 buy quantity</description>
+   <name>MTR_SH_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2867271d-1c31-48e5-979b-70e0fefb3dbe</testCaseGuid>
+</TestCaseEntity>

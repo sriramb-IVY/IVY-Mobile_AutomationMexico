@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_027->
+1)Create B8_MTR_FP_1S_QTY scheme in scheme master 
+and verify the free product name and quantity
+2)Verify whether the scheme has not been applied if a 
+lesser quantity is entered than the actual buy quantity.
+
+Scheme Type: Quantity
+Scheme Process Type: Mutiple Time For Remaining
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: ONLY
+Apply On: RP
+Slabs : Single slab</description>
+   <name>RE_SCH_027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e920a32-5203-48aa-bd5f-620a29cc24de</testCaseGuid>
+</TestCaseEntity>

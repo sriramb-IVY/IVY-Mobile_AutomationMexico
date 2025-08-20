@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme Name : OTP_SS_AND_Cond(In_Any_Cond)
+
+Scenario : 
+Get Outer Logic -AND
+Get Inner Logic1 -ANY
+Get Inner Logic2 -ANY
+
+When we buy a qty and came to free product view screen free qtys applying one product for each group then edit and change the product and qty,need to check for edited products schemes applying properly and able to done the order and invoice.</description>
+   <name>SCE_SH_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5178621-9d93-473c-b4ea-70e90b1a2161</testCaseGuid>
+</TestCaseEntity>

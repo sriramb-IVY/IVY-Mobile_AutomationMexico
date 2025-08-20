@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date Picker - Future</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ada1e4e-1254-4f40-9434-a2a4f7b3e66e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c2fa192-bac7-4e3f-a23d-680a71ed89f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Today'</defaultValue>
+      <description></description>
+      <id>8c2fa192-bac7-4e3f-a23d-680a71ed89f4</id>
+      <masked>false</masked>
+      <name>DateValue</name>
+   </variable>
+</TestCaseEntity>

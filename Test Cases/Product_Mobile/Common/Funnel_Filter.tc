@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Funnel_Filter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41886950-925d-465b-89aa-00ccc2ff39a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>757bb0ba-4b8f-49a5-a68c-3abb0c189779</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f35d9982-11f9-4758-84cb-27b27c1d8ddc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>757bb0ba-4b8f-49a5-a68c-3abb0c189779</id>
+      <masked>false</masked>
+      <name>Filter_Hierarchy</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f35d9982-11f9-4758-84cb-27b27c1d8ddc</id>
+      <masked>false</masked>
+      <name>Hierarchy_Value</name>
+   </variable>
+</TestCaseEntity>

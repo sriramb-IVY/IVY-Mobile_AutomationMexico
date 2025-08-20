@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "600087D193F99898D3D84F6F37553ED4",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.services.LogInService",
+      "keywordMethods": [
+        {
+          "name": "getToken",
+          "parameters": [
+            {
+              "name": "apiKey",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

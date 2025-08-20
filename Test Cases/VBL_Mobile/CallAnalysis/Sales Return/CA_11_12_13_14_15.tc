@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_11 To verify whether user can able to enter data in all fields of the sales return screen
+
+CA_12 To verify whether entered case&amp;piece qty from the product details screen should be correctly reflected in sales return screen
+CA_13 To verify the field from Product details screen should be correctly displayed in sales return summary screen 
+
+CA_14 To verify whether successfully saved alert should be displayed in theSales return screen
+
+CA_15 To verify Sales return value from the sales return screen it should be refelected in call analysis screen</description>
+   <name>CA_11_12_13_14_15</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcf58454-a26f-40ea-85a6-8f06006f02d5</testCaseGuid>
+</TestCaseEntity>

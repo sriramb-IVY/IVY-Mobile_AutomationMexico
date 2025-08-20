@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SO_36 : To verify Total field if we enter qty in pieces field
+SO_37 : To verify Total field if we enter qty in Case field
+SO_38 : To verify Total field if we enter qty in piece and case field
+SO_39 : To verify the field of total piece and case quantity in the bottom of Order and Invoice Screen
+SO_40 : To verify the value field in the bottom of Order and Invoice Screen</description>
+   <name>SO_36 to SO_40</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0132cbe5-cb4c-4bb4-ad10-195acefc723c</testCaseGuid>
+</TestCaseEntity>

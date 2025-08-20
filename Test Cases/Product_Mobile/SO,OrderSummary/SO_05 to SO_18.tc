@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SO_05 : To verify whether negative quantity should not be allowed while taking orders in the stock and order screen
+SO_06 : To verify the product details tab should be present in Product Scheme details Screen
+SO_07 : To verify whether that the fields are present under in the Product details tab 
+SO_08 : To verify whether that the field values from the product master are present under in the Product details tab 
+SO_09 : To verify that the count of total number of product available in stock order screen 
+SO_10 : o verify that user can able to enter case &amp; piece quantity in the Product&amp;scheme details Screen
+SO_11 : To verify whether the product code, case &amp; piece quantity viewed in the summary Screen
+SO_12 : To verify the Order value field in Amount Splitup Screen
+SO_13 : To verify whether the item level discount should be appiled based on the ITEM Discount  master config
+SO_14 : To verify the CGST field in the Amount Splitup Screen 
+SO_15 : To verify the total field in the  Amount Splitup Screen
+SO_16 : To verify the sku total field in the Summary Screen
+SO_17 : To verify the Value field in the Summary Screen
+SO_18 : To verify whether user should able to view the generated Order ID </description>
+   <name>SO_05 to SO_18</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f17d3bdc-1db6-428d-a130-79e4c13952f1</testCaseGuid>
+</TestCaseEntity>

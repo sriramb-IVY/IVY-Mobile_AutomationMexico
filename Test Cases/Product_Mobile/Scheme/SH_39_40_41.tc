@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_39 : Create FP_FS_OTP_Automation_Scheme_CMB
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ONLY
+Group Get Logic : ONLY
+Scheme get type: Free Product 
+Scheme Type: Additional Discount + Apportionate +Retailer type Credit note
+Apply On : RP
+and map the scheme to Retailer RJRetailer21)
+
+SH_40 : To verify whether applied scheme (FP_HT_OTP_Automation_Scheme_CMB) details in mobile  are reflected into the database (sales_invoice_scheme_detail,adm_scheme)
+
+SH_41 : To verify whether applied scheme (FP_HT_OTP_Automation_Scheme_CMB) details in mobile  are reflected into the Sales invoice view screen</description>
+   <name>SH_39_40_41</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db1b9b68-f3f1-4971-9dac-f882f4ba7792</testCaseGuid>
+</TestCaseEntity>

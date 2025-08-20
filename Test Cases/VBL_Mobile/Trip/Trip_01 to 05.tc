@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TRIP_01 : To verify user able to mark attendence witout start trip.
+
+TRIP_02 : To verify user able to start trip screen while tap the start trip menu.
+
+TRIP_03 : To verify that the alert is not visible when the user clicks the &quot;No&quot; button on the start trip screen.
+
+TRIP_04 : To verify that the &quot;Data upload successfully&quot; alert is visible when the user clicks the &quot;Yes&quot; button on the start trip screen.
+
+TRIP_05 : To verify that ending the trip is not allowed before completing the mandatory activity</description>
+   <name>Trip_01 to 05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca01802b-e54a-4119-bb47-cb3c3e93aebb</testCaseGuid>
+</TestCaseEntity>

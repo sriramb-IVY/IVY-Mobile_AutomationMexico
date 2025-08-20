@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_27 : Create FP_FS_OTP_Automation_Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ONLY
+Group Get Logic : ONLY
+Scheme get type: Free Product 
+Apply On : MRP
+and map the scheme to Retailer (RJRetailer016, RJRetailer01_FDD, RJRetailer02_Fixed scheme, RJRetailer04_Variable scheme)</description>
+   <name>SH_27</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94284d71-9dad-4df1-9233-33957d17b8fd</testCaseGuid>
+</TestCaseEntity>

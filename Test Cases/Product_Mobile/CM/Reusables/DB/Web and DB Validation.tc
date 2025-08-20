@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Web and DB Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11c3149c-bb67-45bc-a7d3-33559dce8f2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f86412b-564f-4bcc-b65e-ea0cf3d06587</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>8f86412b-564f-4bcc-b65e-ea0cf3d06587</id>
+      <masked>false</masked>
+      <name>Row_Index</name>
+   </variable>
+</TestCaseEntity>

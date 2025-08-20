@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_026->
+1)Create B8_MTR_FP_SS(get_AND) scheme in scheme master
+ and verify the Total value, Free Product for slab1
+2)Verify whether the scheme has not been applied if a 
+lesser quantity is entered than the actual buy quantity.
+3)Verify the Free product applied for maximum of second slab
+Scheme Type: Value
+Scheme Process Type: MTR
+Scheme Get Type: Free product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ANY
+Group Buy Logic: AND
+Group Get Logic: ANY
+Apply On: RP
+Product Exclusion: NO
+Batch:NO</description>
+   <name>RE_SCH_026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2e0baf3-86a8-460d-9e96-f961fc3daf77</testCaseGuid>
+</TestCaseEntity>

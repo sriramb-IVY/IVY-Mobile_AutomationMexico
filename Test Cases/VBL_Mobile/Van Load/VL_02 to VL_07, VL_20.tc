@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VL_02 To verify that Van load screen is displayed while click on vanload menu
+
+VL_03 To verify that User is able to view product name and case piece Qty
+
+VL_04 To verify that User is able to view 'vanload no'
+
+VL_05 To verify that User is able to accept the van load and verify successfully saved alert
+
+VL_06 To verify that Current stock view is displaying
+
+VL_07 To verify that Current stock view SIH value
+
+VL_20 : To verify whether star sysmbol is present or not in the highlighted modules</description>
+   <name>VL_02 to VL_07, VL_20</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab8e9ff5-6c5a-4200-8ee8-9fa45303b59f</testCaseGuid>
+</TestCaseEntity>

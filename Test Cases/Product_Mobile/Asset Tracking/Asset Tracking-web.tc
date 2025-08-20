@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the Asset is present or not
+To verify Asset  Product is Mapping or not
+To verify Retailer is Mapped for the Asset</description>
+   <name>Asset Tracking-web</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd418332-4b4e-40a8-9077-a948c8fed0f4</testCaseGuid>
+</TestCaseEntity>

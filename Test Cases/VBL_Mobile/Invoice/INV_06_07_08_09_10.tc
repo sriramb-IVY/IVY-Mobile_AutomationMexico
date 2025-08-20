@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_06 :To verify Total field if we enter qty in pieces field
+
+INV_07 :To verify Total field if we enter qty in Case field
+
+INV_08 :To verify Total field if we enter qty in piece and case field
+
+INV_09 :To verify the field of total piece and case quantity in the bottom of Order and Invoice Screen
+
+INV_10 :To verify the value field in the bottom of Order and Invoice Screen</description>
+   <name>INV_06_07_08_09_10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0132cbe5-cb4c-4bb4-ad10-195acefc723c</testCaseGuid>
+</TestCaseEntity>

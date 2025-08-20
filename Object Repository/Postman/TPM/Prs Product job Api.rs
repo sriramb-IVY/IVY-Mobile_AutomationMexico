@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Prs Product job Api</name>
+   <tag></tag>
+   <elementGuidId>ee1e24a8-079d-47f3-b09a-2dbf926b0126</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>eefd6abd-bf37-4889-9b7d-713a7fba39e6</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authentication</name>
+      <type>Main</type>
+      <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiODAzMGJjMi0wODQxLTQxY2MtYjEzNy0wM2M2N2MyNmZkMzUiLCJpYXQiOjE2ODIwMDI0MDUsImF1ZCI6Ikl2eUNQRyIsImlzcyI6Imh0dHA6Ly8xOTIuMTY4LjIuMTczIiwicHJvamVjdF9pZCI6Ijc1ZGE4MzI3LWU5ZjYtNDdkOS05NjliLTc1YWZkYmY1NjE1YSIsImdyYW50X3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjb21wb25lbnRfdHlwZSI6WyIxIiwiMSIsIjEiXSwidXNlcl9pZCI6IjEiLCJuYmYiOjE2ODIwMDI0MDUsImV4cCI6MTY4MjAxNjgwNX0.oLxdxPRZMZBl1g_bi1jqAx4d26x-clsJnHPmPMVnzq0</value>
+      <webElementGuid>c013a918-9241-4413-b976-80f4dfcca978</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Auth_Secret</name>
+      <type>Main</type>
+      <value>Y2F0Y2hlciUyMHdvbmclMjBsb3ZlJTIwLm5ldA==</value>
+      <webElementGuid>06b02682-714c-47ac-917f-d69dae6d6cfd</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.4.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${URL}/PrsProductHierarchy/Process/1/1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>bc09b939-a2e8-40c3-8c23-961fea6ce245</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

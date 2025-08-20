@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobile Date Picker - Current Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d85abef7-b71d-4568-bc5b-a7be6d44661e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34c13768-088e-4e92-8bfd-7cfac10211b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>34c13768-088e-4e92-8bfd-7cfac10211b8</id>
+      <masked>false</masked>
+      <name>DateCount</name>
+   </variable>
+</TestCaseEntity>

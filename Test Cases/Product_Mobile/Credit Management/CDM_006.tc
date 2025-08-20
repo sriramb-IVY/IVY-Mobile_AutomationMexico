@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the user able to generate invoice without any alert until the Warn credit period is achieved</description>
+   <name>CDM_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>677919a1-f6fd-4c70-9ace-c82cd9c9d1ed</testCaseGuid>
+</TestCaseEntity>

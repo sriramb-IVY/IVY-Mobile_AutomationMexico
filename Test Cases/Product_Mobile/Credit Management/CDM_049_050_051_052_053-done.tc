@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Retailer Credit Bill Validations</description>
+   <name>CDM_049_050_051_052_053-done</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd3ddacc-3cb6-402a-b2fe-5d9b4060fc36</testCaseGuid>
+</TestCaseEntity>

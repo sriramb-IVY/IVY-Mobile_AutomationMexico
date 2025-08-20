@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_035->
+1)Create B9_MTR_FP_MS_Buy_EXCL_CAT Apportionate scheme and 
+verify the Free product qty for slab1 
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type:Quantity
+Scheme Process Type: MTR
+Scheme Get Type: Free Quantity
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic: AND
+Group Get Logic: ONLY
+Apply On: RP
+Product Exclusion: Yes</description>
+   <name>RE_SCH_035</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c8bca40-ec4b-4576-a2ef-d51fb29f1504</testCaseGuid>
+</TestCaseEntity>

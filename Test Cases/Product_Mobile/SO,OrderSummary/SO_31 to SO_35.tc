@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SO_31 : To verify whether user able to view the Filters Icon in Stock&amp;Order screen
+SO_32 : To verify whether the Filter Submenus are displayed in the Filter screen
+SO_33 : To verify whether product are loaded based on the Filter selection.
+SO_34 : To verify the Filter Screen Clear button functionality
+SO_35 : To verify the Search option functionality in stock and order screen 
+</description>
+   <name>SO_31 to SO_35</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad26d228-41d2-4cb4-ab48-17bf94798d0e</testCaseGuid>
+</TestCaseEntity>

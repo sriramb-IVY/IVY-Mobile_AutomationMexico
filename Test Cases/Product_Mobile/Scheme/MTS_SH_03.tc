@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme process type: Multiple Slab
+Scheme get type: Discount Percentage
+Scheme Buy logic: ONLY
+Buy group logic: ONLY
+Create scheme with the above details in scheme master and verify the scheme is applied on sales order create screen by entering the maximum quantity of both slab1 and slab2</description>
+   <name>MTS_SH_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35e73e5c-bd95-483d-a877-dbda5710b060</testCaseGuid>
+</TestCaseEntity>

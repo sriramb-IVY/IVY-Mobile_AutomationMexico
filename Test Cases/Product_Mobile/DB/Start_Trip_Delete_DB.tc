@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete from appdata_order_detail
+
+delete from appdata_order_scheme_detail
+
+delete from appdata_order_tax_detail
+
+delete from appdata_order_discount_detail
+
+delete from AppData_Order_Scheme_Detail_Credit
+
+delete from appdata_order_header</description>
+   <name>Start_Trip_Delete_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9afad92-3d9f-49bc-a961-e7ac34de154a</testCaseGuid>
+</TestCaseEntity>

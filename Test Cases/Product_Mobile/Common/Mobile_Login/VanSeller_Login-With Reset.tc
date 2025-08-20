@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reset Vanseller Login with Attendance</description>
+   <name>VanSeller_Login-With Reset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f7b7d66-6cab-4e1f-927a-1710ecc1aaa6</testCaseGuid>
+</TestCaseEntity>

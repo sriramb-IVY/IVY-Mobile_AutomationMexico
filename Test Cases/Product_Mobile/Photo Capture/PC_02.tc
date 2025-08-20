@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>PC_02 : To verify the details is same as given in mobile</description>
+   <name>PC_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7935047-d9e0-4d4b-babb-5642af8a01a2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get_Over_Due_As_Last_Invoice_Amt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d79b625a-9eb1-4da8-97fc-d0ae71e95685</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bfe0598-a9f7-49cb-b82f-44dc05a8c4a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3bfe0598-a9f7-49cb-b82f-44dc05a8c4a1</id>
+      <masked>false</masked>
+      <name>RetailerCode</name>
+   </variable>
+</TestCaseEntity>

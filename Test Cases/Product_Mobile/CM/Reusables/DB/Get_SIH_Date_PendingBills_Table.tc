@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get_SIH_Date_PendingBills_Table</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64dcb9c6-0ba0-4430-a9a5-2297f9b49b75</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec1c27da-525a-4fad-9a6f-e0275f727cb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec1c27da-525a-4fad-9a6f-e0275f727cb4</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

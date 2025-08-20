@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete_Pendingbill_UpdateOverdue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2abaa857-23fa-401e-8861-53d16eac63d3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73bd757a-345a-4d67-9f2f-7e7f7da23172</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>73bd757a-345a-4d67-9f2f-7e7f7da23172</id>
+      <masked>false</masked>
+      <name>Row_Index</name>
+   </variable>
+</TestCaseEntity>

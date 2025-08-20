@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_38 : Create FP_HT_OTP_Automation_Scheme_CMB
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : AND
+Group Get Logic : AND
+Scheme get type: Free Product 
+Scheme Type: Additional Discount + Apportionate +Retailer type Credit note
+Apply On : RP
+and map the scheme to Retailer RJRetailer21)</description>
+   <name>SH_38</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b40fa660-7334-4040-8e6d-40a979753be1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_25 To verify the entered cash from the cash screen should be reflected in the bill payment screen
+CA_26 To verify whether user Should be able to view a list of Pending Invoices with following details:
+ - Invoice number
+ - Invoice Date
+ - Outstanding Amount
+ - Due Date
+ - Invoice Amount
+CA_27 To verify whether user can able to select any invoice in the collection screen
+CA_28 To verify whether user can able to pay that selected invoice in the collection screen
+CA_29 Toverify whether user can able to view the Payment Amount and Balance Amount for the Invoice in the bill payment screen
+CA_30 To verify the entered amount from the cheque screen should be reflected in the bill payment screen
+CA_31 To verify the entered amount from the creditnote screen should be reflected in the bill payment screen
+CA_32 To verify the entered cash from the cash, creditnote and cheque screen should be reflected to the received amount field in the collection screen
+CA_33 To verify OS amount in the collection screen
+CA_34 To verify whether received cash from the collection screen should be reflected to the collection field in call analysis screen</description>
+   <name>CA_25 to CA_34</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad07b2c6-15f6-4b94-86ed-07fc9f067893</testCaseGuid>
+</TestCaseEntity>

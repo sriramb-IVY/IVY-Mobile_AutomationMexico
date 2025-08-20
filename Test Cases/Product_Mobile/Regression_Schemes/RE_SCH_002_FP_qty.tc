@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_002->
+1)Create MTS_SS_Free_QTY scheme in scheme master &amp;
+Verify Total value,Total amount, free product name, free product quantity
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+actual quantity.
+3)Enter double times of buy quantity and verify the free product quantity is 
+doubled or not
+Scheme Type: Quantity
+Scheme Process Type: MultiSlab
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: ONLY
+Apply On: RP
+Slab: Single Slab</description>
+   <name>RE_SCH_002_FP_qty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4009f36-9260-4fbd-8118-3555940e758b</testCaseGuid>
+</TestCaseEntity>

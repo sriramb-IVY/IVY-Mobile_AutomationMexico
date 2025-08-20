@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>OD_01  To verify that Odometer screen is displaying while select odometer menu
+
+OD_02  To verify that start trip field is enable and able to enter start trip data in the odometer screen
+
+OD_03  To verify whether that the start date and start time fields and values are present in Odometer screen
+
+OD_04  To verify whether that van number before starting the trip, it should be displayed  in the odometer screen</description>
+   <name>OD_01_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a61f8fc-323b-4e2b-8c2a-abacc6a1d462</testCaseGuid>
+</TestCaseEntity>

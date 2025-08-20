@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Collection_Acceptance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84471b47-9a49-419f-827d-544251875f9b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>222dd95a-5240-4834-ac03-94fa2ad0c1c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>222dd95a-5240-4834-ac03-94fa2ad0c1c5</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

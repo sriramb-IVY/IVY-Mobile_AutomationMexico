@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E050F3D2C970384126CCAF9E5F99CF76",
+  "keywordClasses": [
+    {
+      "name": "android.Keywords.android_custom_keywords",
+      "keywordMethods": [
+        {
+          "name": "Resetapk",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

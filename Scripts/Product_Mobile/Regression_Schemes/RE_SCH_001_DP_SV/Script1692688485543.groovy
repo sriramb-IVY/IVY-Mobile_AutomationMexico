@@ -1,0 +1,281 @@
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.sun.net.httpserver.Authenticator.Failure as Failure
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
+not_run: Mobile.startApplication(GlobalVariable.APKFile, false)
+
+Mobile.callTestCase(findTestCase('Product_Mobile/Common/Mobile_Login/Relaunch the app'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+String sheet_name = '1_OTP_MS_DIS_PER(Value)'
+
+String file_name = 'Mobile Input data'
+
+ArrayList<String> Retailer = CustomKeywords.'poi.Automation.GetAllDataRow_Flag.getAllDataRow'(file_name, sheet_name, 'Retailer')
+
+ArrayList<String> Quantity_variations = CustomKeywords.'poi.Automation.GetAllDataRow_Flag.getAllDataRow'(file_name, sheet_name, 'Quantity_variations')
+
+ArrayList<String> SKU_Name = CustomKeywords.'poi.Automation.GetAllDataRow_Flag.getAllDataRow'(file_name, sheet_name, 'SKU_Name')
+
+not_run: Mobile.tap(findTestObject('Mobile/Common/Btn_Menu'), 10)
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/TradeCoverage(SelectRetailer)'), [('RetailerName') : findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('Retailer', 1)], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/StartVisit'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/Store_Menu_Selection'), [('MenuName') : findTestData('Mobile Input Data/Common').getValue('Menu', 4), ('SubMenuName') : findTestData('Mobile Input Data/Common').getValue('Menu', 1)], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Product_Mobile/Common/Clear_Star_Filter_Default_Selection'), [:], FailureHandling.STOP_ON_FAILURE)
+
+for (int i = 0; i < Retailer.size(); i++) {
+    Scheme_Index = (i + 1)
+
+    'Slab_1 & Slab2'
+    GlobalVariable.ProductName = findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('SKU_Name', Scheme_Index)
+
+    Mobile.callTestCase(findTestCase('Product_Mobile/Common/Search_Product'), [('ProductName') : GlobalVariable.ProductName], FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Mobile/OrderInvoice/ProductName-(Global)'), 5, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.verifyElementVisible(findTestObject('Mobile/OrderInvoice/Tab-Product Details'), 5)
+
+    Mobile.takeScreenshot()
+
+    Actual_BasePrice = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/BasePrice_Value_Field'), 0)
+
+    Actual_PiecePrice = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/PiecePrice_Value_Field'), 0)
+
+    Piece_Price = Double.parseDouble(Actual_PiecePrice)
+
+    KeywordUtil.logInfo('Price of the product' + Piece_Price)
+
+    Actual_CaseSize = Mobile.getText(findTestObject('Mobile/OrderInvoice/ProductDetails/CaseSize_Value_Field'), 0)
+
+    Mobile.tap(findTestObject('Mobile/OrderInvoice/Qty_Field'), 0)
+
+    Tot_value = findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('Sales_Value', Scheme_Index)
+
+    Sales_Value = Double.parseDouble(Tot_value)
+
+    'Entering Slab1 Piece qty'
+    int Quantity = Sales_Value / Piece_Price
+
+    qty = Quantity.toString()
+
+    Buy_Qty = Double.parseDouble(qty)
+
+    GlobalVariable.Qty = Quantity.toString()
+
+    KeywordUtil.logInfo('Piece quantity to given' + GlobalVariable.Qty)
+
+    Mobile.callTestCase(findTestCase('Product_Mobile/Common/Enter_PIECE_Qty'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.takeScreenshot()
+
+    Mobile.tap(findTestObject('Mobile/Common/Icon_Back'), 0)
+
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    'Total amount displayed in the screen'
+    SKU_TOTAL = Mobile.getText(findTestObject('Mobile/OrderInvoice/OrderInvoiceScrn-SkuTotal'), 0)
+
+    KeywordUtil.logInfo('SKU Total Value ' + SKU_TOTAL)
+
+    'Total amount as per the calculation'
+    Total = (Double.parseDouble(GlobalVariable.Qty) * Piece_Price)
+
+    Mobile.verifyEqual(Double.parseDouble(SKU_TOTAL), Total, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.takeScreenshot()
+
+    KeywordUtil.logInfo(Total.toString() + ' : Product Total Amount calculated and displayed correctly according the formula.')
+
+    Mobile.tap(findTestObject('Mobile/Common/Btn_Next'), 0)
+
+    WebUI.callTestCase(findTestCase('Product_Mobile/Common/MustSell_Alert'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    if ((Quantity_variations.get(i) == 'First slab') || (Quantity_variations.get(i) == 'Second slab')) {
+        'Positive flow Scheme Validation for both Slab1 & Slab2'
+
+        'Scheme should be apply & scheme name should be display since it is positive flow'
+        Mobile.takeScreenshot()
+
+        Mobile.verifyElementVisible(findTestObject('Mobile/OrderInvoice/Scheme/SchemeName'), 15)
+
+        SchemeName = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeName'), 0)
+
+        SchemeDesc = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/SchemeDesc'), 0)
+
+        DiscountPerc = Mobile.getText(findTestObject('Mobile/OrderInvoice/Scheme/DiscountPerc'), 0)
+
+        'Scheme Name Verification'
+        Mobile.verifyMatch(SchemeName, findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('Scheme_Name', Scheme_Index), false, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(SchemeName + ' :Scheme Name correctly displayed !')
+
+        'Scheme Slab Verification'
+        Mobile.verifyMatch(SchemeDesc, findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('Slab_Description', Scheme_Index), false, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(SchemeDesc + ' :Scheme Description correctly displayed !')
+
+        Discount_Perc_Sheet = findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('Discount_percentage', Scheme_Index)
+
+        'Scheme Discperc Verification'
+        Mobile.verifyEqual(Double.parseDouble(DiscountPerc), Double.parseDouble(Discount_Perc_Sheet), FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(DiscountPerc + ' :Discount percentage correctly applied !')
+
+        Mobile.delay(3)
+
+        Mobile.tap(findTestObject('Mobile/Common/Btn_Next'), 0)
+
+        Mobile.callTestCase(findTestCase('Product_Mobile/Common/Handle_Empties_Screen'), [:], FailureHandling.OPTIONAL)
+
+        Mobile.takeScreenshot()
+
+        'Summary screen'
+        Mobile.verifyElementVisible(findTestObject('Mobile/SummaryScreen/SummaryScreen-InfoIcon'), 15)
+
+        Mobile.tap(findTestObject('Mobile/SummaryScreen/SummaryScreen-InfoIcon'), 0)
+
+        Mobile.takeScreenshot()
+
+        'Validation in info screen'
+        OrderAmt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen-OrderAmt'), 0)
+
+        Mobile.verifyEqual(Double.parseDouble(OrderAmt), Total, FailureHandling.STOP_ON_FAILURE)
+
+        Scheme_Amt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen_SCHEME Amt'), 0)
+
+        SchemeAmt = Scheme_Amt.replaceAll('- ', '')
+
+        KeywordUtil.logInfo(SchemeAmt)
+
+        CGST = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen-CGST Value'), 0)
+
+        TotalAmt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SliptScreen_TotalAmt'), 0)
+
+        'scheme amount calculation in info screen'
+        Calculated_Sch_Amt = ((Total * Double.parseDouble(Discount_Perc_Sheet)) / 100)
+
+        KeywordUtil.logInfo(Calculated_Sch_Amt.toString())
+
+        Mobile.verifyEqual(Double.parseDouble(SchemeAmt), Calculated_Sch_Amt, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(Calculated_Sch_Amt.toString() + ' : Calculated Scheme Amount correctly displayed !')
+
+        Calculated_TotalAmt = ((Double.parseDouble(OrderAmt) + Double.parseDouble(CGST)) - Calculated_Sch_Amt)
+
+        'Total amount validation in info screen'
+        Mobile.verifyEqual(Double.parseDouble(TotalAmt), Calculated_TotalAmt, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(Calculated_TotalAmt.toString() + ' :Total amount in split screen displayed correctly !') // Mobile.tap(findTestObject('Mobile/Common/Btn_Next'), 0)
+    } else if (Quantity_variations.get(i) == 'Less than slab1') {
+        'negative scenario scheme validation'
+        Mobile.takeScreenshot()
+
+        'Scheme will not apply since it is negative scenario'
+        Mobile.verifyElementNotVisible(findTestObject('Mobile/OrderInvoice/Scheme/SchemeName'), 15)
+
+        Mobile.takeScreenshot()
+
+        Mobile.delay(3)
+
+        WebUI.callTestCase(findTestCase('Product_Mobile/Common/Handle_ApplyingScheme_Screen'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.callTestCase(findTestCase('Product_Mobile/Common/Handle_Empties_Screen'), [:], FailureHandling.OPTIONAL)
+
+        Mobile.verifyElementVisible(findTestObject('Mobile/SummaryScreen/SummaryScreen-InfoIcon'), 15)
+
+        Mobile.tap(findTestObject('Mobile/SummaryScreen/SummaryScreen-InfoIcon'), 0)
+
+        OrderAmt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen-OrderAmt'), 0)
+
+        Mobile.verifyEqual(Double.parseDouble(OrderAmt), Total, FailureHandling.STOP_ON_FAILURE)
+
+        Scheme_Amt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen_SCHEME Amt'), 0)
+
+        SchemeAmt = Scheme_Amt.replaceAll('- ', '')
+
+        KeywordUtil.logInfo(SchemeAmt)
+
+        CGST = Mobile.getText(findTestObject('Mobile/SummaryScreen/SplitScreen-CGST Value'), 0)
+
+        TotalAmt = Mobile.getText(findTestObject('Mobile/SummaryScreen/SliptScreen_TotalAmt'), 0)
+
+        Discount_Perc_Sheet = findTestData('Mobile Input Data/1_OTP_MS_DIS_PER(Value)').getValue('Discount_percentage', Scheme_Index)
+
+        Calculated_Sch_Amt = ((Total * Double.parseDouble(Discount_Perc_Sheet)) / 100)
+
+        KeywordUtil.logInfo(Calculated_Sch_Amt.toString())
+
+        Mobile.verifyEqual(Double.parseDouble(SchemeAmt), Calculated_Sch_Amt, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(Calculated_Sch_Amt.toString() + ' :Calculated Scheme Amount correctly displayed !')
+
+        Calculated_TotalAmt = ((Double.parseDouble(OrderAmt) + Double.parseDouble(CGST)) - Calculated_Sch_Amt)
+
+        Mobile.verifyEqual(Double.parseDouble(TotalAmt), Calculated_TotalAmt, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.takeScreenshot()
+
+        KeywordUtil.logInfo(Calculated_TotalAmt.toString() + ' : Total amount in split screen displayed correctly !')
+    }
+    
+    Mobile.delay(2)
+
+    Mobile.tap(findTestObject('Mobile/SummaryScreen/SummaryScreen-info_closeBtn'), 3)
+
+    //Mobile.callTestCase(findTestCase('Product_Mobile/Common/Generate_Order_And_Invoice'), [:], FailureHandling.STOP_ON_FAILURE )//Mobile.tap(findTestObject('Mobile/SummaryScreen/SummaryScreen-Order btn'), 3) //    Mobile.takeScreenshot()
+    //
+    //    Mobile.tap(findTestObject('Mobile/Common/Btn_Confirm'), 0)
+    //    WebUI.callTestCase(findTestCase('Product_Mobile/Common/OrderPopUp(EditOrder)'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Product_Mobile/Common/Generate_Order'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Mobile/Common/Icon_Back'), 1, FailureHandling.OPTIONAL)
+
+    Mobile.swipe(50, 50, 50, 600, FailureHandling.OPTIONAL)
+
+    Mobile.tap(findTestObject('Mobile/Store_Actvy/Menu-OrderInvoice'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('Product_Mobile/Common/OrderPopUp(EditOrder)'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
+Mobile.tap(findTestObject('Mobile/Common/Icon_Back'), 1, FailureHandling.OPTIONAL)
+
+WebUI.callTestCase(findTestCase('Product_Mobile/Common/Call_Analysis'), [:], FailureHandling.STOP_ON_FAILURE)
+

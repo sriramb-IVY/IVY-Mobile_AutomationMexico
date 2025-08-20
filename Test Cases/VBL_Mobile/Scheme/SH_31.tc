@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_31 : Create DV_VS_OTP_Automation_Scheme
+Scheme Buy Logic : ONLY
+Scheme Get Logic : 
+Group Buy Logic : ONLY
+Group Get Logic : 
+Scheme get type: Discount Value
+Apply On : RP
+and map the scheme to Retailer (RJRetailer016, RJRetailer01_FDD, RJRetailer02_Fixed scheme, RJRetailer04_Variable scheme)</description>
+   <name>SH_31</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a269c5a7-7786-4500-9db7-e7558104d48c</testCaseGuid>
+</TestCaseEntity>

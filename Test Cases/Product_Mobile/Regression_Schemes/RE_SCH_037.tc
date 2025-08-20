@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_037->
+1)Create B9_MTR_FP_2S_AD_DIS scheme in scheme master and verify
+ the free product name, quantity and discount value for slab1, slab2 and double time of slab2 in sales order create screen.
+2)Verify whether the scheme has not been applied if a lesser
+quantity is entered than the actual buy quantity.
+Scheme Type: Quantity
+Scheme Process Type: Multiple Time For Remaining
+Scheme Get Type: Free Product
+Scheme Buy Logic: AND
+Scheme Get Logic: ONLY
+Group Buy Logic 1 : ONLY
+Group Buy Logic 2 : ANY
+Group Get Logic: ONLY
+Apply On: RP
+Additional Discount : Yes
+Slabs : Multi slabs</description>
+   <name>RE_SCH_037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edd49a4a-7cb2-4b6f-8251-afb47240678b</testCaseGuid>
+</TestCaseEntity>

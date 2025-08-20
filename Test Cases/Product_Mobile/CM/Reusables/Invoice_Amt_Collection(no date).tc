@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invoice_Amt_Collection(no date)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b481e60-6e84-4a39-b664-902a5848a83d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8c97ab8-2cec-4c03-831e-06fa4df44ac9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8c97ab8-2cec-4c03-831e-06fa4df44ac9</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

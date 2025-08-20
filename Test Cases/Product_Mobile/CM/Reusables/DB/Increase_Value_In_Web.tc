@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Increase_Value_In_Web</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>679d3642-cba8-4d3b-b854-ee52a83fe71f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>043a801d-8211-415c-a95c-04fa969b619f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>043a801d-8211-415c-a95c-04fa969b619f</id>
+      <masked>false</masked>
+      <name>Credit_Index</name>
+   </variable>
+</TestCaseEntity>

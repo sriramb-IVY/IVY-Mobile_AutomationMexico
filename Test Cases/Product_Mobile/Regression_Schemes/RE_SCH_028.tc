@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_028->
+1)Create B8_MTR_FP_AND_1S_QTY scheme in scheme master
+ and verify the free product name and quantity for slab1 
+2)Verify whether the scheme has not been applied if a 
+lesser quantity is entered than the actual buy quantity
+3)Verify free quantity is doubled if the double times of buy 
+quantity is achieved
+Scheme Type: Quantity
+Scheme Process Type: Multiple Time For Remaining
+Scheme Get Type: Free Product
+Scheme Buy Logic: ONLY
+Scheme Get Logic: ONLY
+Group Buy Logic : ONLY
+Group Get Logic: AND
+Apply On: RP
+Slabs : Single slab</description>
+   <name>RE_SCH_028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f978bd8f-e49b-4d98-85e5-e8cd35f38cd5</testCaseGuid>
+</TestCaseEntity>

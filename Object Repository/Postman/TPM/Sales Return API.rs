@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Sales Return API</name>
+   <tag></tag>
+   <elementGuidId>101d7e8a-7e7b-4c2c-951a-92618dd089d5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n\&quot;DistCode\&quot;:\&quot;DIST_008\&quot;,\r\n\&quot;RetCode\&quot;:\&quot;RTR_HVN_SubD_124\&quot;,\r\n\&quot;UserCode\&quot;:\&quot;\&quot;,\r\n\&quot;RefNo\&quot;:\&quot;0987\&quot;,\r\n\&quot;RefDate\&quot;:\&quot;2023-04-17\&quot;,\r\n\&quot;Type\&quot;:\&quot;CASH\&quot;,\r\n\&quot;Gross\&quot;:1,\r\n\&quot;Net\&quot;:1,\r\n\&quot;Source\&quot;:\&quot;\&quot;, \r\n\&quot;Details\&quot;:\r\n      [{\r\n        \&quot;ProductCode\&quot;:\&quot;SKU029\&quot;,\r\n        \&quot;Qty\&quot;:1,\r\n        \&quot;Uom\&quot;:\&quot;CASE\&quot;,\r\n        \&quot;Price\&quot;:600,\r\n        \&quot;Gross\&quot;:550,\r\n        \&quot;Net\&quot;:500\r\n     },\r\n{\r\n \&quot;ProductCode\&quot;:\&quot;SKU030\&quot;,\r\n        \&quot;Qty\&quot;:1,\r\n        \&quot;Uom\&quot;:\&quot;CASE\&quot;,\r\n        \&quot;Price\&quot;:600,\r\n        \&quot;Gross\&quot;:550,\r\n        \&quot;Net\&quot;:500   \r\n}],\r\n\&quot;Free\&quot;:\r\n    [{\r\n       \&quot;ProductCode\&quot;:\&quot;SKU001\&quot;,\r\n       \&quot;Qty\&quot;:1,\r\n       \&quot;Uom\&quot;:\&quot;CASE\&quot;,\r\n       \&quot;Price\&quot;:550,\r\n       \&quot;Gross\&quot;:550,\r\n       \&quot;Net\&quot;:500\r\n    }]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>5513c053-fe98-4215-a609-1a2a9207998f</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authentication</name>
+      <type>Main</type>
+      <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZmY1N2RiNi00NjU5LTRlNWYtOTczMS1mZDM0YmE5YmZhMjciLCJpYXQiOjE2ODE3Mjc5NzcsImF1ZCI6Ikl2eUNQRyIsImlzcyI6Imh0dHA6Ly8xOTIuMTY4LjIuMTczIiwicHJvamVjdF9pZCI6Ijc1ZGE4MzI3LWU5ZjYtNDdkOS05NjliLTc1YWZkYmY1NjE1YSIsImdyYW50X3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjb21wb25lbnRfdHlwZSI6WyIxIiwiMSIsIjEiXSwidXNlcl9pZCI6IjEiLCJuYmYiOjE2ODE3Mjc5NzcsImV4cCI6MTY4MTc0MjM3N30.aprEhCebtascFs0Y8LKPrEjQmqC36bw9s0zbP6K8Uek</value>
+      <webElementGuid>af0badfa-2f87-47b0-9532-d25acd04e671</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Auth_Secret</name>
+      <type>Main</type>
+      <value>Y2F0Y2hlciUyMHdvbmclMjBsb3ZlJTIwLm5ldA==</value>
+      <webElementGuid>457b0201-29cd-4277-ab7c-2320d9a93554</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.4.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${URL}/SalesReturn/Single</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>107340e2-b7d0-454a-8cf5-0de3fe35cc66</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

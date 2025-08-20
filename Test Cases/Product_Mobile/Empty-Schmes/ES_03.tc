@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scheme : Empties_Scheme_OTP_DP
+</description>
+   <name>ES_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75179435-20a1-4767-8dee-bdc7818927cc</testCaseGuid>
+</TestCaseEntity>

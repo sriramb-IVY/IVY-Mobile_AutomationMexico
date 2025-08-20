@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_12 To verify that whether current stock view screen details and van unload details were same
+
+LM_13 To verify whether the functionality of the product hierarchy filter icon in the Van Unload screen.
+
+LM_14 To verify whether user can able to enter quantity to the product in the van unload screen
+
+LM_15 To verify whether the accumulation of the total case and total piece field in the Van Unload screen
+
+LM_16 To verify the functionality of van unload .</description>
+   <name>LM_12_13_14_15_16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a63c14e-a5cb-4340-aaeb-aeeb833e8636</testCaseGuid>
+</TestCaseEntity>

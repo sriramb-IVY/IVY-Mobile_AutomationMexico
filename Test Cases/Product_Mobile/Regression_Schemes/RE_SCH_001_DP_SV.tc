@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RE_SCH_001->
+1)Create OTP_MS_DIS%(Value) scheme in scheme master &amp;
+Verify Total value,scheme amount for slab1,scheme amount for slab2,
+Total amount
+2)Verify whether the scheme has not been applied if a lesser quantity is entered than the
+ actual quantity.
+Scheme Type: Quantity
+Scheme Type: Value
+Scheme Process Type: One time process
+Scheme Get Type: Discount Percentage
+Scheme Buy Logic: ONLY
+Group Buy Logic: ONLY
+Group Get Logic: -
+Apply On: RP
+Slab : Multi Slab</description>
+   <name>RE_SCH_001_DP_SV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1574f05f-8cb9-4974-b4e4-c24ccf8f50cb</testCaseGuid>
+</TestCaseEntity>

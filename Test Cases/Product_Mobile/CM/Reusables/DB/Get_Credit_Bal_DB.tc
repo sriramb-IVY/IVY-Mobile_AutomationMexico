@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get_Credit_Bal_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>827b2b40-9138-4ee6-aaff-b042fb3ab105</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd61c1eb-f240-40f9-b1c3-192edb588823</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cd61c1eb-f240-40f9-b1c3-192edb588823</id>
+      <masked>false</masked>
+      <name>RetailerCode</name>
+   </variable>
+</TestCaseEntity>

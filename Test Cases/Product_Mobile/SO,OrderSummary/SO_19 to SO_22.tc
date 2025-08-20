@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SO_19 : To verify the icons present in the top of summary screen
+SO_20 : To verify whether user should be able to capture signature  in the summary screen
+SO_21 : To verify whether user should be able to capture Evidence image  in the summary screen
+SO_22 : To verify that the edit icon functionality in the summary screen</description>
+   <name>SO_19 to SO_22</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a907f7f-fef9-46c0-9dd0-4076bf860c3e</testCaseGuid>
+</TestCaseEntity>

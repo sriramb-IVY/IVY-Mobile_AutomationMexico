@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TM_01 : To verify that user can able to click add button
+TM_02 : To verify that user can able to select Execution Type
+TM_03 : To verify that user can able to save the created task
+TM_04 : To verify that user can able to Edit and Save the task
+TM_05 : To verify that user can able to Add the task config
+TM_06 : To verify that user can able to select Mandatory field
+TM_07 : To verify that user can able to save and proceed
+TM_08 : To verify that user can able to select criteria selection,Store and save the task
+TM_09 : To verify that user can able to Edit and Save the task Config</description>
+   <name>MobileOneTimeTask_DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecacfa66-3fa9-48f1-8abb-ccd889cd363a</testCaseGuid>
+</TestCaseEntity>

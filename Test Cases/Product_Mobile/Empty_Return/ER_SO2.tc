@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Stock and Order return the empty products
+</description>
+   <name>ER_SO2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77ec680b-844f-4b4e-8e9f-552039e74e94</testCaseGuid>
+</TestCaseEntity>

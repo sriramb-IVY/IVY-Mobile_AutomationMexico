@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LM_17 To verify whether Entered product,case piece qty from mobile van unload screen is reflected into Van_UnLoad_Detail table</description>
+   <name>LM_17_CT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9605bf74-2c7a-4a5c-9945-ce86141a2092</testCaseGuid>
+</TestCaseEntity>

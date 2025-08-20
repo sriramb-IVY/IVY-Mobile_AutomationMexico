@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>INV_32 : To verify that given data from the moible should be refelected in grid of sales invoice view screen
+
+INV_33 : To verify whether the Given data from the mobile device is inserted into appdata_sales_invoice_detail </description>
+   <name>INV_32_33</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>349ad465-9daa-4593-8628-e3989d6a51da</testCaseGuid>
+</TestCaseEntity>

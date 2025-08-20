@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_42 : Create Distributor Mapping
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : AND
+Group Get Logic : AND
+Scheme get type: Free Product 
+Scheme Type:Distributor Mapping
+Apply On : RP
+and map the scheme to Distributor (ZZZ Store)</description>
+   <name>SH_42</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50d70e8c-7483-4e38-a105-d187ebe8e683</testCaseGuid>
+</TestCaseEntity>

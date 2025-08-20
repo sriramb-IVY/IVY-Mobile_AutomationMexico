@@ -1,0 +1,40 @@
+{
+  "keywordFileContentHash": "630C86710E816C31DD5B417DDA85101C",
+  "keywordClasses": [
+    {
+      "name": "poi.Automation.BrowserZoomControl",
+      "keywordMethods": [
+        {
+          "name": "zoomIn",
+          "parameters": [
+            {
+              "name": "zoomLevel",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "zoomOut",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "zoomIn",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SV_06 : To verify whether given data inserted into AppData_Survey_Result_Header, AppData_Survey_Result_Details 
+and AppData_Survey_Result_Images</description>
+   <name>SV_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aebb7420-4e56-42c3-9496-b258b7aeb5e5</testCaseGuid>
+</TestCaseEntity>

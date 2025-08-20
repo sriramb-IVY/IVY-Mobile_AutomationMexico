@@ -1,0 +1,69 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.18.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m64406[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:64406/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.0.101:64406/wd/hub
+	http://127.0.0.1:64406/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.2.4 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:appActivity":"com.ivy.sd.bimbomx.view.LoginScreen","appium:appPackage":"com.ivy.bimbomx.mexico.view.uat","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-M526B (Android 13)","appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":8270,"appium:udid":"RFCR917JM2E","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:appActivity":"com.ivy.sd.bimbomx.view.LoginScreen","appium:appPackage":"com.ivy.bimbomx.mexico.view.uat","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-M526B (Android 13)","appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":8270,"appium:udid":"RFCR917JM2E"}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\subramanyasastha.r\.appium\node_modules\appium-uiautomator2-driver
+[38;5;97m[AppiumDriver@f1c5][0m Appium v2.18.0 creating new AndroidUiautomator2Driver (v4.2.4) session
+[38;5;97m[AppiumDriver@f1c5][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;97m[AppiumDriver@f1c5][0m Appium's BaseDriver version is 9.17.0
+[38;5;97m[AppiumDriver@f1c5][0m AndroidUiautomator2Driver's BaseDriver version is 9.17.0
+[38;5;-12m[AndroidUiautomator2Driver@57d1][0m The following provided capabilities were not recognized by this driver:
+[38;5;-12m[AndroidUiautomator2Driver@57d1][0m   deviceId
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Session created with session id: d21c9cde-14fd-4533-ae99-8eb7afa587ab
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\subramanyasastha.r\.katalon\tools\android_sdk' (newest first):
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m     C:\Users\subramanyasastha.r\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\subramanyasastha.r\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Retrieving device list
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Using device: RFCR917JM2E
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\subramanyasastha.r\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Starting 'com.ivy.bimbomx.mexico.view.uat' directly on the device
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Relaxing hidden api policy
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\subramanyasastha.r\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Server packages are not going to be (re)installed
+[38;5;39m[d21c9cde][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Starting UIAutomator2 server 7.6.2
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Using UIAutomator2 server from 'C:\Users\subramanyasastha.r\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.6.2.apk' and test from 'C:\Users\subramanyasastha.r\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m socket hang up
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Determined the downstream protocol as 'W3C'
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Screen already unlocked, doing nothing
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Starting 'com.ivy.bimbomx.mexico.view.uat/com.ivy.sd.bimbomx.view.LoginScreen' and waiting for 'com.ivy.bimbomx.mexico.view.uat/com.ivy.sd.bimbomx.view.LoginScreen'
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m 'com.ivy.bimbomx.mexico.view.uat' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+[38;5;39m[d21c9cde][0m[38;5;97m[AppiumDriver@f1c5][0m New AndroidUiautomator2Driver session created successfully, session d21c9cde-14fd-4533-ae99-8eb7afa587ab added to master session list
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8460 ms - 1219[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/execute/sync[39m [90m{"args":[],"script":"mobile: getSystemBars"}[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/execute/sync [39m[32m200[39m [90m409 ms - 151[39m [90m[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/execute/sync[39m [90m{"args":[{"appId":"com.ivy.bimbomx.mexico.view.uat","bundleId":"com.ivy.bimbomx.mexico.view.uat"}],"script":"mobile: activateApp"}[39m
+[38;5;39m[d21c9cde][0m[38;5;123m[BaseDriver][0m The following script arguments are not known and will be ignored: bundleId
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/execute/sync [39m[32m200[39m [90m795 ms - 14[39m [90m[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/source[39m [90m{}[39m
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Replacing sessionId 850fb079-2f2e-4c42-8696-927c976ead21 with d21c9cde-14fd-4533-ae99-8eb7afa587ab
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/source [39m[32m200[39m [90m42 ms - 9854[39m [90m[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/screenshot[39m [90m{}[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab/screenshot [39m[32m200[39m [90m312 ms - 66520[39m [90m[39m
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab[39m [90m{}[39m
+[38;5;39m[d21c9cde][0m[38;5;97m[AppiumDriver@f1c5][0m Removing session d21c9cde-14fd-4533-ae99-8eb7afa587ab from our master session list
+[38;5;39m[d21c9cde][0m[38;5;-12m[AndroidUiautomator2Driver@57d1][0m Restoring hidden api policy to the device default configuration
+[38;5;39m[d21c9cde][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/d21c9cde-14fd-4533-ae99-8eb7afa587ab [39m[32m200[39m [90m1954 ms - 14[39m [90m[39m

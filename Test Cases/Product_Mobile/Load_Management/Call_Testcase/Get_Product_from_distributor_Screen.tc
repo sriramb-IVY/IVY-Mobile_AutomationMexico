@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify whether the stock proposal screen products are refelected from product master web CPG so, Get product details from admin login 'product distributor' screen </description>
+   <name>Get_Product_from_distributor_Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b54d16bb-a536-4b91-9276-a510c4642d36</testCaseGuid>
+</TestCaseEntity>

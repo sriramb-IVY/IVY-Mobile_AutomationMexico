@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date(DD-MM-YYYY)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>973acf80-31aa-425b-8d45-c8569587dbf3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bcccd558-31c5-4f3b-ab78-07d343200348</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>bcccd558-31c5-4f3b-ab78-07d343200348</id>
+      <masked>false</masked>
+      <name>DateCount</name>
+   </variable>
+</TestCaseEntity>

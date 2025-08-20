@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SH_21 : Create Automatio_Apportionate_Scheme_3
+Scheme Buy Logic : ONLY
+Scheme Get Logic : ONLY
+Group Buy Logic : ANY
+Group Get Logic : ANY
+Scheme get type: Free Product
+Slab : Slab_1
+Apply On : RP
+and map the scheme to Retailer(zzz store)</description>
+   <name>SH_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e01c5deb-94c8-436c-907b-205f9d9ba322</testCaseGuid>
+</TestCaseEntity>

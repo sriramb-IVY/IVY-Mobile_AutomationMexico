@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CA_43 : To verify denomination details in the AppData_Denomination_Header and AppData_Denomination_Detail table 
+CA_44 : To verify the collected cash value and total value is displayed in the collection acceptenance menu into the denomination screen
+CA_45 : To verify that receipt number is loading in the collection acceptance screen</description>
+   <name>CA_43 to CA_45</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d6bb3d3-8bdd-4919-906b-f493366c83ff</testCaseGuid>
+</TestCaseEntity>

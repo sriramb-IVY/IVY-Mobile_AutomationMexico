@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In the stock allocation screen, SKU batch wise case and piece qty should be same as the Stock summary screen.</description>
+   <name>SA_01_02_03</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b9fea8e-e22f-4c40-88a9-43634e48ebb1</testCaseGuid>
+</TestCaseEntity>
